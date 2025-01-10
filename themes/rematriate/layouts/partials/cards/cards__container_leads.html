@@ -1,0 +1,64 @@
+{{ $pageLeads := .Page.GetPage "/about/leads" }}
+{{ $pages := where site.RegularPages "Type" "about/leads" }}
+
+<section role="region" class="rematriation-relative card__sections">
+
+  <div id="current_partners" class="cards__main_external_wrapper">
+
+    <h2 id="">{{ $pageLeads.Title }}</h2>
+
+    <div class="cards__sub_container project_partners">
+      
+      <!-- Start Cards -->
+      {{ with .Site.GetPage "/about/leads" }}
+        {{ range .Pages }}
+          <div class="card__project_leads_container">
+            <h3 class="card__main_name">
+              {{ .Params.name }} <span>{{ .Params.pronouns }}</span>
+            </h3>
+            {{ if .Params.community }}
+              <p>
+                <em>{{ .Params.community }}</em>
+              </p>
+            {{ end }}
+
+            {{ if .Params.img_src }}
+              <div class="card__main_image">
+                {{ $img_url := .Params.img_src }}
+                {{- with resources.Get $img_url }}
+                  <img src="{{ .RelPermalink }}" 
+                        width="900" height="900"
+                        alt="">
+                {{- end}}
+              </div>
+            {{ end }}
+          
+            <!-- BIO COPY -->
+            <div class="card__desc_wrapper">
+              <p class="partner_title">
+                {{ if .Params.community }}
+                  <em>{{ .Params.jobtitle }} at {{ end }} {{ .Params.organization }}</em>
+              </p>
+
+              {{ if .Params.url }}
+                <p>
+                  <a href="https://{{ .Params.url | safeURL }}" target="_blank" rel="nopenner noreferrer">{{ .Params.urltext }}</a>
+                </p>
+              {{ end }}
+
+              {{ if .Params.bio }}
+                <p class="bio_container">
+                  {{ .Params.bio }}
+                </p>
+              {{ end }}
+            </div>
+          
+          </div>
+        {{ end }}
+      {{ end }}
+      <!-- End Cards -->
+
+    </div>
+  </div>
+
+</section>

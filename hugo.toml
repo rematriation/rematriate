@@ -1,0 +1,5 @@
+baseURL = 'https://rematriate.net/'
+languageCode = 'en-us'
+title = 'The Rematriation Project'
+theme = 'rematriate'
+heading_two = "They have gathered together"

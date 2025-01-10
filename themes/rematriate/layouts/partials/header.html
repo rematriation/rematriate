@@ -1,0 +1,52 @@
+<div class="flex__header_nav_container">
+  <header class="nav__header slide close" role="banner" aria-label="Logo title container">
+      <ul id="navToggle" class="burger slide close">
+          <li></li>
+          <li></li>
+          <li></li>
+      </ul>
+      <div class="flex__logo_title_container">
+        {{- with resources.Get "images/logos/rematriation-logo-new.svg" }}
+          <img src="{{ .RelPermalink }}" alt="">
+        {{- end}}
+        <h1 class="logo_text">
+          <a class="navbar-brand db" href="/index.html">{{ site.Title }}</a>
+        </h1>
+      </div>
+  </header>
+  {{ partial "menu.html" (dict "menuID" "main" "page" .) }}
+</div>
+<div class="main__container slide scroller">
+  <!-- nalukataq -->
+  {{- with resources.Get "images/backgrounds/water-thermals.svg" }}
+    <style>
+      .header__bg_logo_container::before { background-image: url({{ .RelPermalink }}); }
+    </style>
+  {{- end}}
+  <header class="header__bg_logo_container naluq_content" role="banner">
+      <div class="header__hero_container">
+          <div class="header__absolute_img">
+              <div class="header__textual_content">
+                  <h1>{{ site.Title }}</h1>
+
+                  <div class="header_tc_subgrid">
+                      <p>Indigenous Data Sovereignty</p>
+                      <p>Sparking curiousity</p>
+                      <p>Capacity-Building</p>
+                  </div>
+
+                  <div class="hero__img">
+                    {{- with resources.Get "images/conceptual/Dylan-Paisaq-Nalukataq-Rematriation-Cultural-Humility-1344x1974-1.png" }}
+                      <img src="{{ .RelPermalink }}" alt="" />
+                    {{- end}}
+                  </div>
+              </div>
+              <!-- <div class="naluqatuq_outside">
+    <div class="naluqatuq_jumper">
+      <img src="./assets/images/conceptual/nalukataq/nalukataq-paisaq-kramer-dylan-jumper.png" alt="" />
+    </div>
+  </div> -->
+          </div>
+      </div>
+  </header>
+</div>

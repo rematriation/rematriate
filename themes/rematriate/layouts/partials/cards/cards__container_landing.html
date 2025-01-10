@@ -1,0 +1,32 @@
+{{ $pageLandingCards := .Page.GetPage "/landing" }}
+{{ $pages := where site.RegularPages "Type" "landing" }}
+
+<div id="landing-cards-wrap">
+  <section class="landing-cards-grid-3-col-container" role="region" aria-label="Action items for the REMA project">
+
+    {{ with .Site.GetPage "/landing" }}
+      {{ range .Pages }}
+      <article class="panel" style="--progress: 0;">
+
+        <a href="./{{ .Params.page_url }}">
+          <h2 class="words splitting">{{ .Params.h2 }}</h2>
+        </a>
+        <div class="thumb">
+          <div class="inner">
+            <a class="thumb-link" href="./{{ .Params.page_url }}">
+              {{ $IMG_URL := .Params.img_url }}
+              {{- with resources.Get "{{ $IMG_URL }}" }}
+                {{$IMG_URL}}
+                <img src="{{ .RelPermalink }}" alt="">
+              {{- end}}
+            </a>
+          </div>
+        </div>
+  
+      </article>
+      {{- end }}
+    {{- end }}
+
+    </article>
+  </section>
+</div>

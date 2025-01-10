@@ -1,0 +1,34 @@
+<div class="flex__header_nav_container">
+  <header class="nav__header slide close" role="banner" aria-label="Logo title container">
+      <ul id="navToggle" class="burger slide close">
+          <li></li>
+          <li></li>
+          <li></li>
+      </ul>
+      <div class="flex__logo_title_container">
+        {{- with resources.Get "images/logos/rematriation-logo-new.svg" }}
+          <img src="{{ .RelPermalink }}" alt="">
+        {{- end}}
+        <h1 class="logo_text">
+          <a class="navbar-brand db" href="/index.html">{{ site.Title }}</a>
+        </h1>
+      </div>
+  </header>
+  {{ partial "menu.html" (dict "menuID" "main" "page" .) }}
+</div>
+<header role="banner" class="rematriation-relative animated_hero_headings relative">
+  <div class="first_heading">
+      <h2>Restoring Inuit Knowledges</h2>
+  </div>
+  <div class="sub_heading_highlight">
+      <h2>Sparking Curiosity</h2>
+      <svg>
+        <line x1="0" x2="100%" y1="0" y2="0"></line>
+      </svg>
+  </div>
+</header>
+<div class="absolute_img_top_container fixed hundo_wh z_neg_1">
+  {{- with resources.Get "images/alaska-NANA-rematriation-project.svg" }}
+    <img class="db object_fit__cover opacity__50" src="{{ .RelPermalink }}" alt="">
+  {{- end}}
+</div>

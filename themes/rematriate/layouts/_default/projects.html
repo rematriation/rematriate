@@ -1,0 +1,9 @@
+{{ define "main" }}
+{{ partial "header-regular-pages-banner.html" . }}
+<main class="mt4">
+  <div id='{{ .Param "main_id" }}'>
+    {{ partial "intro-section.html" . }}
+    {{ partial "cards/cards__container_projects.html" . }}
+  </div>
+</main>
+{{ end }}

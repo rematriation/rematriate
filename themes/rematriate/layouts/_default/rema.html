@@ -1,0 +1,11 @@
+{{ define "main" }}
+{{ partial "header-regular-pages-banner.html" . }}
+<main class="mt4 mw7 cms">
+  <div id='{{ .Param "main_id" }}' class="accent_light_bg_color pa3">
+    <h2>
+      {{ .Params.title }}
+    </h2>
+    {{ .Content }}
+  </div>
+</main>
+{{ end }}

@@ -1,0 +1,52 @@
+{{ $pageData := .Page.GetPage "/about/supports" }}
+{{ $pages := where site.RegularPages "Type" "about/supports" }}
+
+<section role="region" class="rematriation-relative card__sections">
+
+  <div class="cards__main_external_wrapper card__regular_wrapped_flex">
+
+    <h2 id="">{{ $pageData.Title }}</h2>
+
+    <div class="cards__sub_container">
+      
+      <!-- Start Cards -->
+      {{ with .Site.GetPage "/about/supports" }}
+        {{ range .Pages }}
+
+          <div class="card__inner_wrapper">
+            {{ if .Params.img_src }}
+              <div class="card__main_image">
+                {{ $img_url := .Params.img_src }}
+                {{- with resources.Get $img_url }}
+                  <img src="{{ .RelPermalink }}" 
+                        width="300" height="300"
+                        alt="">
+                {{- end}}
+              </div>
+            {{ else }}
+              <div class="card__main_image">
+                {{ $img_url := "/images/logos/rematriation-logo-new-aspect-1-1.svg" }}
+                {{- with resources.Get $img_url }}
+                  <img src="{{ .RelPermalink }}" 
+                        width="300" height="300"
+                        alt="">
+                {{- end}}
+              </div>
+            {{ end }}
+            <div class="card__desc_wrapper">
+              <h3 class="card__main_name">{{ .Params.name }}</h3>
+              <p class="card__sub_name">{{ .Params.jobtitle }}</p>
+              <p>
+                {{ .Params.bio }}
+              </p>
+            </div>
+          </div>
+
+        {{ end }}
+      {{ end }}
+      <!-- End Cards -->
+
+    </div>
+  </div>
+
+</section>

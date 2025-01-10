@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projects on The Rematriation Project</title>
+    <link>http://localhost:1313/projects/</link>
+    <description>Recent content in Projects on The Rematriation Project</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="http://localhost:1313/projects/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title></title>
+      <link>http://localhost:1313/projects/digitize_pungowiyi/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/digitize_pungowiyi/</guid>
+      <description>&lt;p&gt;Between June 1, 2022 and June 30, 2023, the team coordinated the digitization of the Caleb Pungowiyi collection. With the generous aid of the Virginia Tech Digitization Lab, the team digitized a wide range of physical materials, from photographs to personal journals. The digitization process of Caleb Pungowiyi’s materials resulted in about 200 hours of work, which included 554 slides cataloged/digitized; 1,636 photos cataloged/digitized; and 94 journals and documents cataloged/digitized.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/projects/wikibase_prototype/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/wikibase_prototype/</guid>
+      <description>&lt;p&gt;The team has created a prototype collection with a installation. This prototype provides us with a convenient initial data model for our work that can be scaled by Aqqaluk Trust and others to meet future and broader rematriation needs.&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://rematriation.wikibase.cloud/wiki/Main_Page&#34;&gt;Check out the prototype!&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

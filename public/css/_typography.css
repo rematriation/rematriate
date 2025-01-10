@@ -1,0 +1,158 @@
+/* GENERAL COLOR SCHEME */
+
+body {
+  margin: 0;
+  background: var(--backgroundColor);
+  color: var(--neutralShade8);
+  font-family: var(--copyFonts);
+}
+
+/*==========
+TYPOGRAPHY
+===========*/
+
+/* Font Families */
+
+body {
+  font-family: var(--copyFonts);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--headingFonts);
+}
+
+/* Emphasis and Bolding */
+
+strong {
+  font-weight: 500;
+}
+
+em {
+  font-style: italic;
+}
+
+/* Color */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+blockquote,
+cite,
+code {
+  color: var(--secondaryShade5);
+}
+
+h1,
+h2,
+h3 {
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+h4,
+h5,
+h6 {
+  font-weight: 400;
+}
+
+/* Font sizing */
+
+h1 {
+  font-size: clamp(36px, 10vw, 62px)
+}
+
+h2 {
+  font-size: clamp(30px, 10vw, 48px);
+}
+
+h3 { font-size: 1.75rem; }
+
+h4 {
+  font-size: 1.75rem;
+  font-style: italic;
+}
+
+h5 { font-size: 1.25rem; }
+
+/* Font spacing */
+
+h2 { margin: 4rem 0 0.75rem 0; }
+h3 { margin: 2rem 0 0.75rem 0; }
+h4 { margin: 1.5rem 0 0.75rem 0; }
+h5 { margin: 1rem 0 0 0; }
+
+p,
+ul,
+ol {
+  margin: 2rem 0;
+  line-height: 1.5;
+}
+
+/* Initial Letter Effect */
+
+.drop_case_first_letter::first-letter {
+  float: left;
+  margin: .15rem .5rem 0 0;
+  padding: 1rem;
+  font-family: var(--headingFonts);
+  font-size: 4rem;
+  color: var(--secondaryColor);
+  line-height: 1;
+  border: 2px solid var(--secondaryColor);
+  border-radius: 8px;
+}
+
+/* First-Line Bolded */
+
+.first_line__bolded_uppercase:first-line {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+/* Link Effect */
+
+main a,
+.main-content a,
+.main-content-no-subtitle a,
+#intro-card-container .panel.panel__preface a {
+  text-decoration: none;
+  color: var(--primaryColor);
+}
+
+main a {
+  background-image: linear-gradient(var(--primaryColor), var(--primaryColor)), linear-gradient(var(--secondaryShade5), var(--secondaryShade5));
+  background-position: 0% 100%;
+  background-repeat: no-repeat;
+  background-size: 0% 2px, 100% 2px;
+  transition: background-size .16s;
+  position: relative;
+  &:hover,
+  &:focus {
+      background-image: linear-gradient(var(--primaryColor), var(--primaryColor)), linear-gradient(var(--accentColor), var(--accentColor));
+      background-size: 100% 2px, 100% 100%;
+      transition: background-size .16s;
+  }
+}
+
+.panel a {
+  background-image: unset;
+  background-position: unset;
+  background-repeat: unset;
+  background-size: unset;
+  transition: unset;
+  position: unset;
+  &:hover,
+  &:focus {
+      background-size: unset;
+      padding: unset;
+      transition: unset;
+  }
+}

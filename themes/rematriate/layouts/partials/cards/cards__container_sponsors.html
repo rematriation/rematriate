@@ -1,0 +1,45 @@
+{{ $pageSponsors := .Page.GetPage "/about/sponsors" }}
+{{ $pages := where site.RegularPages "Type" "about/sponsors" }}
+
+<section role="region" class="rematriation-relative card__sections">
+
+  <div id="current_partners" class="cards__main_external_wrapper card__regular_wrapped_flex">
+
+    <h2 id="">{{ $pageSponsors.Title }}</h2>
+
+    <div class="cards__sub_container">
+      
+      <!-- Start Cards -->
+      {{ with .Site.GetPage "/about/sponsors" }}
+        {{ range .Pages }}
+
+          <div class="float_left_card__inner_wrapper">
+            {{ if .Params.img_src }}
+              <div class="card__main_image">
+                {{ $img_url := .Params.img_src }}
+                {{- with resources.Get $img_url }}
+                  <img src="{{ .RelPermalink }}" 
+                        width="300" height="300"
+                        alt="">
+                {{- end}}
+              </div>
+            {{ end }}
+            <div class="card__desc_wrapper">
+              <h3 class="card__main_name">{{ .Params.organization }}</h3>
+              <p class="card__sub_name">{{ .Params.org_type }}</p>
+              <a class="card__link" href="https://{{ .Params.url | safeURL }}" target="_blank" rel="nopenner noreferrer">
+                {{ .Params.urltext }}
+              </a>
+              <p>
+                {{ .Params.bio }}
+              </p>
+            </div>
+          </div>
+        {{ end }}
+      {{ end }}
+      <!-- End Cards -->
+
+    </div>
+  </div>
+
+</section>
