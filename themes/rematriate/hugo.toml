@@ -22,10 +22,10 @@ name = 'Projects'
 pageRef = '/projects'
 weight = 30
 
-[[menus.main]]
-name = 'What is Rematriation?'
-pageRef = '/rema'
-weight = 40
+# [[menus.main]]
+# name = 'What is Rematriation?'
+# pageRef = '/rema'
+# weight = 40
 
 # [[menus.main]]
 # name = 'Tags'

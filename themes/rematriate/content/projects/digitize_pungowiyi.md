@@ -11,7 +11,11 @@ img_3_alt: ''
 img_4_alt: 'Coastline auklets'
 ---
 
-Between June 1, 2022 and June 30, 2023, the team coordinated the digitization of the Caleb Pungowiyi collection. With the generous aid of the Virginia Tech Digitization Lab, the team digitized a wide range of physical materials, from photographs to personal journals. The digitization process of Caleb Pungowiyi’s materials resulted in about 200 hours of work, which included 554 slides cataloged/digitized; 1,636 photos cataloged/digitized; and 94 journals and documents cataloged/digitized.
+Between June 1, 2022 and June 30, 2023, the team coordinated the digitization of the Caleb Pungowiyi collection. With the generous aid of the Virginia Tech Digitization Lab, the team digitized a wide range of physical materials, from photographs to personal journals. The digitization process of Caleb Pungowiyi’s materials resulted in about 200 hours of work, which included cataloging and digitizing the following materials:
+
+- 554 slides 
+- 1,636 photos 
+- 94 journals and documents.
 
 In total, the lab processed 2,284 items and produced 6,561 images. With the help of VT undergraduate research assistants, the handwritten resources were meticulously transcribed into digital format and enriched with metadata.
 
