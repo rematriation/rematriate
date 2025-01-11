@@ -2,8 +2,8 @@
 title: 'Tracing Definitions & Uses of Rematriation'
 main_id: 'rema-define'
 introheading: 'Tracing Definitions &amp; Uses of Rematriation'
-banner_h2_1: 'What is'
-banner_h2_2: 'Rematriation?'
+banner_h2_1: 'Tracing'
+banner_h2_2: 'Rematriation'
 ---
 
 This document helps us folx on The Rematriation Project trace our understanding and mobilization of rematriation.

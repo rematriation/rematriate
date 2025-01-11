@@ -7,4 +7,4 @@ img_1_alt: 'Screenshot of the Tracing Rematriation page'
 
 We have created a living document that traces existing definitions of **Rematriation** as a resource for us and others to use and share.
 
-Learn more on the [What is Rematriation?](/rema/) page.
+Learn more on the [Tracing Rematriation](/rema/) page.
