@@ -2,22 +2,22 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/tags/blue/</loc>
-    <lastmod>2023-03-15T11:00:00-07:00</lastmod>
+    <loc>http://localhost:1313/tags/awards/</loc>
+    <lastmod>2025-01-16T11:00:00-07:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/green/</loc>
-    <lastmod>2023-03-15T11:00:00-07:00</lastmod>
+    <loc>http://localhost:1313/tags/community-engaged-research/</loc>
+    <lastmod>2025-01-16T11:00:00-07:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/post-1/</loc>
-    <lastmod>2023-03-15T11:00:00-07:00</lastmod>
+    <loc>http://localhost:1313/tags/idsov/</loc>
+    <lastmod>2025-01-16T11:00:00-07:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/red/</loc>
-    <lastmod>2023-03-15T11:00:00-07:00</lastmod>
+    <loc>http://localhost:1313/news/2025-01-16-cccc-award/</loc>
+    <lastmod>2025-01-16T11:00:00-07:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/</loc>
-    <lastmod>2023-03-15T11:00:00-07:00</lastmod>
+    <lastmod>2025-01-16T11:00:00-07:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/</loc>
+    <loc>http://localhost:1313/news/</loc>
     <lastmod>2023-01-01T08:30:00-07:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/</loc>
@@ -67,15 +67,23 @@
   </url><url>
     <loc>http://localhost:1313/landing/1_about/</loc>
   </url><url>
-    <loc>http://localhost:1313/projects/digitize_pungowiyi/</loc>
+    <loc>http://localhost:1313/phases/</loc>
   </url><url>
-    <loc>http://localhost:1313/projects/tracing_rema/</loc>
+    <loc>http://localhost:1313/phases/phase-1/</loc>
   </url><url>
-    <loc>http://localhost:1313/projects/wikibase_prototype/</loc>
+    <loc>http://localhost:1313/phases/phase-2/</loc>
+  </url><url>
+    <loc>http://localhost:1313/phases/phase-3/</loc>
   </url><url>
     <loc>http://localhost:1313/about/</loc>
   </url><url>
+    <loc>http://localhost:1313/tags/archive/</loc>
+  </url><url>
     <loc>http://localhost:1313/categories/</loc>
+  </url><url>
+    <loc>http://localhost:1313/tags/digitization/</loc>
+  </url><url>
+    <loc>http://localhost:1313/projects/digitize_pungowiyi/</loc>
   </url><url>
     <loc>http://localhost:1313/landing/</loc>
   </url><url>
@@ -83,10 +91,22 @@
   </url><url>
     <loc>http://localhost:1313/projects/</loc>
   </url><url>
+    <loc>http://localhost:1313/projects/wikibase_prototype/</loc>
+  </url><url>
+    <loc>http://localhost:1313/tags/pungowiyi/</loc>
+  </url><url>
+    <loc>http://localhost:1313/tags/rematriation/</loc>
+  </url><url>
+    <loc>http://localhost:1313/tags/resource/</loc>
+  </url><url>
     <loc>http://localhost:1313/about/sponsors/</loc>
   </url><url>
     <loc>http://localhost:1313/about/supports/</loc>
   </url><url>
     <loc>http://localhost:1313/rema/</loc>
+  </url><url>
+    <loc>http://localhost:1313/projects/tracing_rema/</loc>
+  </url><url>
+    <loc>http://localhost:1313/tags/wikibase/</loc>
   </url>
 </urlset>

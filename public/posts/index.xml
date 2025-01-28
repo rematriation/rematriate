@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on The Rematriation Project</title>
+    <title>News on The Rematriation Project</title>
     <link>http://localhost:1313/posts/</link>
-    <description>Recent content in Posts on The Rematriation Project</description>
+    <description>Recent content in News on The Rematriation Project</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 15 Mar 2023 11:00:00 -0700</lastBuildDate>
+    <lastBuildDate>Thu, 16 Jan 2025 11:00:00 -0700</lastBuildDate>
     <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Post 1</title>
-      <link>http://localhost:1313/posts/post-1/</link>
-      <pubDate>Wed, 15 Mar 2023 11:00:00 -0700</pubDate>
-      <guid>http://localhost:1313/posts/post-1/</guid>
-      <description>&lt;p&gt;Occaecat aliqua consequat laborum ut ex aute aliqua culpa quis irure esse magna dolore quis. Proident fugiat labore eu laboris officia Lorem enim. Ipsum occaecat cillum ut tempor id sint aliqua incididunt nisi incididunt reprehenderit. Voluptate ad minim sint est aute aliquip esse occaecat tempor officia qui sunt. Aute ex ipsum id ut in est velit est laborum incididunt. Aliqua qui id do esse sunt eiusmod id deserunt eu nostrud aute sit ipsum. Deserunt esse cillum Lorem non magna adipisicing mollit amet consequat.&lt;/p&gt;</description>
+      <title>REMA Wins National Research Award!</title>
+      <link>http://localhost:1313/posts/2025-01-16-cccc-award/</link>
+      <pubDate>Thu, 16 Jan 2025 11:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/2025-01-16-cccc-award/</guid>
+      <description>&lt;p&gt;Here are some of the details about the award:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Organization&lt;/strong&gt;: NCTE&amp;rsquo;s Conference on College Composition and Communication&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Award&lt;/strong&gt;: 2025 CCCC Technical and Scientific Communication Award&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Category&lt;/strong&gt;: Best Article on Philosophy or Theory of Technical or Scientific Communication&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Article&lt;/strong&gt;: Cana Uluak Itchuaqiyaq, Chris A. Lindgren, Corina Qaaġraq Kramer. (2023). Decolonizing Community-Engaged Research: Designing CER with Cultural Humility as a Foundational Value. Communication Design Quarterly, 11(3), 12-20. &lt;a href=&#34;https://doi.org/10.1145/3592367.3592369&#34;&gt;https://doi.org/10.1145/3592367.3592369&lt;/a&gt;.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Selection Committee comment&lt;/strong&gt;: &amp;ldquo;Arguing that cultural humility &amp;lsquo;is a necessary precondition&amp;rsquo; for effective, respectful community-engaged research (CER), this article extends earlier scholarship by addressing the &amp;lsquo;how&amp;rsquo; of CER. The authors introduce a three-strategy framework for enacting cultural humility in the context of CER, using the ancient Inuit cooperative activity Nalukataq as an extended metaphor. Coupling this metaphor with examples and an applied heuristic, Itchuaqiyaq, Lindgren, and Kramer have gifted the field a practical, actionable theory to improve our work.&amp;rdquo;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;img src=&#34;Dylan-Paisaq-Nalukataq-Rematriation-Cultural-Humility-1344x1974-1.png&#34; alt=&#34;Illustration depicting nalukataq (seal-blanket toss): a person (jumper) being tossed into the air by others with specific roles like a caller and puller&#34;&gt;&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

@@ -1,10 +1,38 @@
 {{ define "main" }}
-  <h1>{{ .Title }}</h1>
+{{ partial "header-news-posts-banner.html" . }}
+<main class="mt4 center mw7">
+  <div id='{{ .Param "main_id" }}'>
+    <h1>{{ .Title }}</h1>
 
-  {{ $dateMachine := .Date | time.Format "2006-01-02T15:04:05-07:00" }}
-  {{ $dateHuman := .Date | time.Format ":date_long" }}
-  <time datetime="{{ $dateMachine }}">{{ $dateHuman }}</time>
-
-  {{ .Content }}
-  {{ partial "terms.html" (dict "taxonomy" "tags" "page" .) }}
+    {{ if .Date }}
+    {{ $dateMachine := .Date | time.Format "2006-01-02T15:04:05-07:00" }}
+    {{ $dateHuman := .Date | time.Format ":date_long" }}
+    <div>
+      <p>
+        <small>Posting date: <time datetime="{{ $dateMachine }}">{{ $dateHuman }}</time></small>
+      </p>
+    </div>
+    {{ end }}
+    
+    <div class="news__single_post_container">
+      {{ if .Params.img_url }}
+      <div>
+        <img src="{{ .Params.img_url }}" alt="{{ .Params.alt_txt }}">
+      </div>
+      {{ end }}
+      <div>
+        {{ .Content }}
+      </div>
+    </div>
+    {{/*  {{ partial "terms.html" (dict "taxonomy" "tags" "page" .) }}  */}}
+  </div>
+  <nav class="nav__prev_next" role="navigation" aria-label="News post navigation menu">
+    {{ with .PrevInSection }}
+      <a href="{{ .RelPermalink }}">← Previous</a>
+    {{ end }}
+    {{ with .NextInSection }}
+      <a href="{{ .RelPermalink }}">Next →</a>
+    {{ end }}
+  </nav>
+</main>
 {{ end }}

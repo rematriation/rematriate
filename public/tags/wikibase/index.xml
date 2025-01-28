@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Wikibase on The Rematriation Project</title>
+    <link>http://localhost:1313/tags/wikibase/</link>
+    <description>Recent content in Wikibase on The Rematriation Project</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="http://localhost:1313/tags/wikibase/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Prototype Wikibase Archive of the Caleb Pungowiyi Collection</title>
+      <link>http://localhost:1313/projects/wikibase_prototype/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/wikibase_prototype/</guid>
+      <description>&lt;p&gt;The team has created a prototype collection with a installation. This prototype provides us with a convenient initial data model for our work that can be scaled by Aqqaluk Trust and others to meet future and broader rematriation needs.&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://rematriation.wikibase.cloud/wiki/Main_Page&#34;&gt;Check out the prototype!&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

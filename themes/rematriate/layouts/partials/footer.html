@@ -1,4 +1,55 @@
-{{/*  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>  */}}
+{{/*
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script> */}}
 
-{{/*  {{ partialCached "scripts/loader.html" . }}  */}}
+{{/* {{ partialCached "scripts/loader.html" . }} */}}
+<!-- Site footer -->
+<footer class="footer_site__container" role="contentinfo">
+  <div class="container">
+    <div class="row">
+      <div class="about__container">
+        <h2>About</h2>
+        <p>
+          The Rematriation Project is a digital archiving project directed by an Iñupiaq-led and serving tribal organization, Aqqaluk Trust, in Kotzebue, Alaska. Our project's aim is to create capacity for and access to digital archives related to Inuit cultural, tribal, scientific knowledges, and history to assist tribes and communities. In partnership with a team of scholars (itself led by an Iñupiaq scholar from Kotzebue) from Virginia Tech, North Carolina State University, and American College of the Mediterranean, we operate on a foundation of community-first, community-led decision making. We seek to empower Indigenous communities with self-determined data and research sovereignty to collect, control, interpret, and benefit from data that originates from their communities.
+        </p>
+      </div>
+
+      <div class="categories__container">
+        <h2>Categories</h2>
+        {{ $taxonomyObject := .Site.Taxonomies.tags }}
+
+        <ul class="footer-links">
+          {{ range $taxonomyObject.ByCount.Reverse }}
+            <li>
+              <a href="{{ .Page.RelPermalink }}">{{ .Page.LinkTitle }}</a> ({{ .Count }})
+            </li>
+          {{ end }}
+        </ul>
+      </div>
+
+      <div class="quick_links__container">
+        <h2>Quick Links</h2>
+        {{ partial "menu.html" (dict "menuID" "main" "page" .) }}
+      </div>
+    </div>
+    <hr>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8 col-sm-6 col-xs-12">
+        <p class="copyright-text">
+          Copyright &copy; {{ time.Now.Year }} All Rights Reserved by The Rematriation Project.
+        </p>
+      </div>
+
+      {{/*  <div class="socials__container">
+        <ul class="social-icons">
+          <li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
+          <li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
+          <li><a class="dribbble" href="#"><i class="fa fa-dribbble"></i></a></li>
+          <li><a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>
+        </ul>
+      </div>  */}}
+    </div>
+  </div>
+</footer>

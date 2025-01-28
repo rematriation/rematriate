@@ -1,0 +1,40 @@
+{{ $pagePhasesCards := .Page.GetPage "/phases" }}
+{{ $pages := where site.RegularPages "Type" "phases" }}
+
+<section class="" role="region" aria-label="Action items for the REMA project">
+  {{ with .Site.GetPage "/phases" }}
+  <div class="mw7 mb3 cms pa3 accent_light_bg_color">
+    {{ .Content }}
+  </div>
+  <div class="flex flex_gap_2 flex-wrap phases__container">
+    {{ range .Pages }}
+    <article class="flex__4_1_300px">
+      <h3>Phase {{ .Params.phase_heading }}</h3>
+      <ol>
+        <div></div>
+        {{ range .Params.steps }}
+        <li>
+          {{ .step }}
+          <br>
+          <strong>Status</strong>: {{ .status }}
+        </li>
+        {{ end }}
+      </ol>
+
+    </article>
+    {{- end }}
+  </div>
+  {{- end }}
+  <div class="projects__cta_container">
+    Learn more about our <a href="/projects/">projects</a>.
+  </div>
+</section>
+
+{{/*  Alter height of empty div for decor  */}}
+<script>
+  let articleHeight = document.querySelector('.phases__container article').clientHeight
+  let decorDivs = document.querySelectorAll('.phases__container article > ol > div')
+  decorDivs.forEach((dd) => {
+    dd.style.height = articleHeight.toString()+"px"
+  })
+</script>

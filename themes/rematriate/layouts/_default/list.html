@@ -1,8 +1,54 @@
 {{ define "main" }}
-  <h1>{{ .Title }}</h1>
-  {{ .Content }}
-  {{ range .Pages }}
-    <h2><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
-    {{ .Summary }}
-  {{ end }}
+{{ partial "header-news-posts-banner.html" . }}
+<main class="mt4 cms mw8">
+  <div id='{{ .Param "main_id" }}'>
+    <h2>{{ .Title }}</h2>
+    {{ .Content }}
+    <div class="grid cols_three_1fr grid__gap_2rem">
+      {{ range .Pages }}
+      <div class="flex flex-column">
+        <div class="ar_100per_250px">
+          {{ if .Params.img_url }}
+            <img src="/news/{{ .Params.post_url }}/{{ .Params.img_url }}"
+                class="object_fit__cover_top"
+                alt="{{ .Params.alt_txt }}"
+            />
+          {{ else if .Params.img_1 }}
+            {{- with resources.Get .Params.img_1 }}
+              <img src="{{ .RelPermalink }}"
+                  class="object_fit__cover_top"
+                  alt=""
+                  style="opacity:0.65"
+              />
+            {{ end }}
+          {{ else }}
+            {{- with resources.Get "images/logos/favicon.png" }}
+              <img src="{{ .RelPermalink }}"
+                  class="object_fit__cover_top"
+                  alt=""
+                  style="opacity:0.65"
+              />
+            {{ end }}
+          {{ end }}
+        </div>
+        <div>
+          <h3><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h3>
+          {{ if .Params.byline }}
+          <p>
+            {{ .Params.byline }}
+          </p>
+          {{ else }}
+          <p>
+            {{ .Content | safeHTML | truncate 125 }}
+          </p>
+          {{ end }}
+          
+        </div>
+        
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</main>
+
 {{ end }}

@@ -6,14 +6,14 @@
     <description>Recent content in Home on The Rematriation Project</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 15 Mar 2023 11:00:00 -0700</lastBuildDate>
+    <lastBuildDate>Thu, 16 Jan 2025 11:00:00 -0700</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Post 1</title>
-      <link>http://localhost:1313/posts/post-1/</link>
-      <pubDate>Wed, 15 Mar 2023 11:00:00 -0700</pubDate>
-      <guid>http://localhost:1313/posts/post-1/</guid>
-      <description>&lt;p&gt;Occaecat aliqua consequat laborum ut ex aute aliqua culpa quis irure esse magna dolore quis. Proident fugiat labore eu laboris officia Lorem enim. Ipsum occaecat cillum ut tempor id sint aliqua incididunt nisi incididunt reprehenderit. Voluptate ad minim sint est aute aliquip esse occaecat tempor officia qui sunt. Aute ex ipsum id ut in est velit est laborum incididunt. Aliqua qui id do esse sunt eiusmod id deserunt eu nostrud aute sit ipsum. Deserunt esse cillum Lorem non magna adipisicing mollit amet consequat.&lt;/p&gt;</description>
+      <title>REMA Wins National Research Award!</title>
+      <link>http://localhost:1313/news/2025-01-16-cccc-award/</link>
+      <pubDate>Thu, 16 Jan 2025 11:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/news/2025-01-16-cccc-award/</guid>
+      <description>&lt;p&gt;Our team is grateful to hear that one of our articles about our approach to being led by our community partners has been recognized.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Organization&lt;/strong&gt;: NCTE&amp;rsquo;s Conference on College Composition and Communication&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Award&lt;/strong&gt;: 2025 &lt;a href=&#34;https://cccc.ncte.org/cccc/awards/techsci&#34;&gt;CCCC Technical and Scientific Communication Award&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Category&lt;/strong&gt;: Best Article on Philosophy or Theory of Technical or Scientific Communication&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Article&lt;/strong&gt;: Cana Uluak Itchuaqiyaq, Chris A. Lindgren, Corina Qaaġraq Kramer. (2023). Decolonizing Community-Engaged Research: Designing CER with Cultural Humility as a Foundational Value. Communication Design Quarterly, 11(3), 12-20. &lt;a href=&#34;https://doi.org/10.1145/3592367.3592369&#34;&gt;https://doi.org/10.1145/3592367.3592369&lt;/a&gt;.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Selection Committee comment&lt;/strong&gt;: &amp;ldquo;Arguing that cultural humility &amp;lsquo;is a necessary precondition&amp;rsquo; for effective, respectful community-engaged research (CER), this article extends earlier scholarship by addressing the &amp;lsquo;how&amp;rsquo; of CER. The authors introduce a three-strategy framework for enacting cultural humility in the context of CER, using the ancient Inuit cooperative activity Nalukataq as an extended metaphor. Coupling this metaphor with examples and an applied heuristic, Itchuaqiyaq, Lindgren, and Kramer have gifted the field a practical, actionable theory to improve our work.&amp;rdquo;&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
     <item>
       <title></title>
@@ -171,24 +171,45 @@
     </item>
     <item>
       <title></title>
+      <link>http://localhost:1313/phases/phase-1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/phases/phase-1/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/phases/phase-2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/phases/phase-2/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/phases/phase-3/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/phases/phase-3/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Digitizing the Caleb Pungowiyi Collection</title>
       <link>http://localhost:1313/projects/digitize_pungowiyi/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/projects/digitize_pungowiyi/</guid>
       <description>&lt;p&gt;Between June 1, 2022 and June 30, 2023, the team coordinated the digitization of the Caleb Pungowiyi collection. With the generous aid of the Virginia Tech Digitization Lab, the team digitized a wide range of physical materials, from photographs to personal journals. The digitization process of Caleb Pungowiyi’s materials resulted in about 200 hours of work, which included cataloging and digitizing the following materials:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;554 slides&lt;/li&gt;&#xA;&lt;li&gt;1,636 photos&lt;/li&gt;&#xA;&lt;li&gt;94 journals and documents.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;In total, the lab processed 2,284 items and produced 6,561 images. With the help of VT undergraduate research assistants, the handwritten resources were meticulously transcribed into digital format and enriched with metadata.&lt;/p&gt;</description>
     </item>
     <item>
-      <title></title>
-      <link>http://localhost:1313/projects/tracing_rema/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/projects/tracing_rema/</guid>
-      <description>&lt;p&gt;We have created a living document that traces existing definitions of &lt;strong&gt;Rematriation&lt;/strong&gt; as a resource for us and others to use and share.&lt;/p&gt;&#xA;&lt;p&gt;Learn more on the &lt;a href=&#34;http://localhost:1313/rema/&#34;&gt;Tracing Rematriation&lt;/a&gt; page.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title></title>
+      <title>Prototype Wikibase Archive of the Caleb Pungowiyi Collection</title>
       <link>http://localhost:1313/projects/wikibase_prototype/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/projects/wikibase_prototype/</guid>
       <description>&lt;p&gt;The team has created a prototype collection with a installation. This prototype provides us with a convenient initial data model for our work that can be scaled by Aqqaluk Trust and others to meet future and broader rematriation needs.&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://rematriation.wikibase.cloud/wiki/Main_Page&#34;&gt;Check out the prototype!&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Tracing Definitions of Rematriation</title>
+      <link>http://localhost:1313/projects/tracing_rema/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/tracing_rema/</guid>
+      <description>&lt;p&gt;We have created a living document that traces existing definitions of &lt;strong&gt;Rematriation&lt;/strong&gt; as a resource for us and others to use and share.&lt;/p&gt;&#xA;&lt;p&gt;Learn more on the &lt;a href=&#34;http://localhost:1313/rema/&#34;&gt;Tracing Rematriation&lt;/a&gt; page.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

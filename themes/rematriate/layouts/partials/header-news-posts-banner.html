@@ -16,19 +16,3 @@
   </header>
   {{ partial "menu.html" (dict "menuID" "main" "page" .) }}
 </div>
-<header role="banner" class="rematriation-relative animated_hero_headings relative">
-  <div class="first_heading">
-      <h2>What is</h2>
-  </div>
-  <div class="sub_heading_highlight">
-      <h2>Rematriation?</h2>
-      <svg>
-        <line x1="0" x2="100%" y1="0" y2="0"></line>
-      </svg>
-  </div>
-</header>
-<div class="absolute_img_top_container fixed hundo_wh z_neg_1">
-  {{- with resources.Get "images/alaska-NANA-rematriation-project.svg" }}
-    <img class="db object_fit__cover opacity__50" src="{{ .RelPermalink }}" alt="">
-  {{- end}}
-</div>

@@ -27,6 +27,11 @@ name = 'Tracing Rematriation'
 pageRef = '/rema'
 weight = 40
 
+[[menus.main]]
+name = 'News'
+pageRef = '/news'
+weight = 50
+
 # [[menus.main]]
 # name = 'Tags'
 # pageRef = '/tags'
