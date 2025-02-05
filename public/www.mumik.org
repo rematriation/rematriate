@@ -78,13 +78,6 @@
 
     
     
-
-    <div>
-      <p>
-        <small>Posting date: <time datetime="0001-01-01T00:00:00&#43;00:00">January 1, 1</time></small>
-      </p>
-    </div>
-    
     <div class="news__single_post_container">
       
       <div>

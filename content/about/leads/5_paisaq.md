@@ -2,7 +2,7 @@
 name: 'Dylan Paisaq Itchuaqiyaq'
 pronouns: 'They/Them'
 community: 'Iñupiaq, Noorvik Native Community'
-jobtitle: 'Intern'
+jobtitle: 'Media & Metadata Intern'
 organization: 'Aqqaluk Trust'
 # url: www.aaa.aaa # Leave out the 'https://', since it is appended safely at rendering location
 # urltext: 'aaa.aaa'
