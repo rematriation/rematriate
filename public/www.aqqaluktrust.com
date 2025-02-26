@@ -122,6 +122,10 @@
             </li>
           
             <li>
+              <a href="/tags/resources/">Resources</a> (1)
+            </li>
+          
+            <li>
               <a href="/tags/rematriation/">Rematriation</a> (1)
             </li>
           
@@ -130,7 +134,7 @@
             </li>
           
             <li>
-              <a href="/tags/community-engaged-research/">Community-Engaged Research</a> (1)
+              <a href="/tags/clir/">CLIR</a> (1)
             </li>
           
             <li>
@@ -151,6 +155,10 @@
           
             <li>
               <a href="/tags/idsov/">IDSov</a> (2)
+            </li>
+          
+            <li>
+              <a href="/tags/community-engaged-research/">Community-Engaged Research</a> (2)
             </li>
           
         </ul>
@@ -197,4 +205,3 @@
 </footer>
 </body>
 </html>
->
