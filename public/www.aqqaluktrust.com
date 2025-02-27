@@ -62,9 +62,6 @@
       <a class="pa3 no-underline db" href="/projects/">Projects</a>
     </li>
     <li>
-      <a class="pa3 no-underline db" href="/rema/">Tracing Rematriation</a>
-    </li>
-    <li>
       <a class="pa3 no-underline db" href="/news/">News</a>
     </li>
     </ul>
@@ -179,9 +176,6 @@
       <a class="pa3 no-underline db" href="/projects/">Projects</a>
     </li>
     <li>
-      <a class="pa3 no-underline db" href="/rema/">Tracing Rematriation</a>
-    </li>
-    <li>
       <a class="pa3 no-underline db" href="/news/">News</a>
     </li>
     </ul>
@@ -205,3 +199,4 @@
 </footer>
 </body>
 </html>
+>
