@@ -686,9 +686,16 @@ body {
 .news__single_post_container {
 
   img {
-    width: 200px;
-    float: left;
-    margin: 0 2rem 2rem 0;
+    display: inline;
+    width: 300px;
+    margin:auto;
+
+    &:first {
+      display: block;
+      width: 200px;
+      float: left;
+      margin: 0 2rem 2rem 0;
+    }
   }
 }
 

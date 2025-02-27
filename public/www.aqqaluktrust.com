@@ -85,10 +85,10 @@
   </div>
   <nav class="nav__prev_next" role="navigation" aria-label="News post navigation menu">
     
-      <a href="/www.mumik.org">← Previous</a>
+      <a href="/about/leads/5_paisaq/">← Previous</a>
     
     
-      <a href="/www.itchuaqiyaq.com">Next →</a>
+      <a href="/www.mumik.org">Next →</a>
     
   </nav>
 </main>
@@ -127,7 +127,15 @@
             </li>
           
             <li>
+              <a href="/tags/networking/">Networking</a> (1)
+            </li>
+          
+            <li>
               <a href="/tags/digitization/">Digitization</a> (1)
+            </li>
+          
+            <li>
+              <a href="/tags/conferences/">Conferences</a> (1)
             </li>
           
             <li>
@@ -151,11 +159,11 @@
             </li>
           
             <li>
-              <a href="/tags/idsov/">IDSov</a> (2)
+              <a href="/tags/community-engaged-research/">Community-Engaged Research</a> (2)
             </li>
           
             <li>
-              <a href="/tags/community-engaged-research/">Community-Engaged Research</a> (2)
+              <a href="/tags/idsov/">IDSov</a> (3)
             </li>
           
         </ul>
@@ -199,4 +207,3 @@
 </footer>
 </body>
 </html>
->
