@@ -722,6 +722,9 @@ body {
   position: relative;
   z-index: 2;
 }
+.news_media__container {
+  border-bottom: 10px var(--accent2Color) solid;
+}
 .news_content__container {
   padding: 1.2rem;
 }
