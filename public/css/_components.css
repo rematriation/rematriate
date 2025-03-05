@@ -700,7 +700,6 @@ body {
   &> .news__card_item_anchor {
     display: block;
     height: 100%;
-    padding: 1.2rem;
     text-decoration: none;
     background: var(--accentShade1);
     transition: 0.2s;
@@ -714,11 +713,17 @@ body {
   & h3 {
     text-transform: unset;
   }
+  & .news_content__container p {
+    padding: 0; margin: 0;
+  }
 }
 .news_content__container,
 .news_media__container {
   position: relative;
   z-index: 2;
+}
+.news_content__container {
+  padding: 1.2rem;
 }
 
 .news__single_post_container {

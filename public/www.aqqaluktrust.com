@@ -85,10 +85,10 @@
   </div>
   <nav class="nav__prev_next" role="navigation" aria-label="News post navigation menu">
     
-      <a href="/about/leads/5_paisaq/">← Previous</a>
+      <a href="/www.mumik.org">← Previous</a>
     
     
-      <a href="/www.mumik.org">Next →</a>
+      <a href="/www.itchuaqiyaq.com">Next →</a>
     
   </nav>
 </main>
