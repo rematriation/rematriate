@@ -1,9 +1,9 @@
 ---
-title: 'Presents at 2024 US Indigenous Data Sovereignty Network Summit in Tucson, AZ'
+title: 'US Indigenous Data Sovereignty Network Summit'
 post_url: '2024-04-15-ids-summit'
 img_url: 'featured.jpeg'
 alt_txt: >-
-  REMA team and 
+  Summit whiteboard to share messages amongst other attendees
 byline: >-
   Part of the team presents and networks at 2024 US Indigenous Data Sovereignty Network Summit in Tucson, AZ.
 date: 2024-04-15T11:00:00-07:00

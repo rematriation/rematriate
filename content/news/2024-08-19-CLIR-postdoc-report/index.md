@@ -1,5 +1,5 @@
 ---
-title: 'CLIR Postdoc Report'
+title: 'Yunes Publishes CLIR Postdoc Report'
 post_url: '2024-08-19-CLIR-postdoc-report'
 img_url: 'featured.png'
 alt_txt: >-

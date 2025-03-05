@@ -6,46 +6,58 @@
     {{ .Content }}
     <div class="grid cols_three_1fr grid__gap_2rem">
       {{ range .Pages }}
-      <div class="flex flex-column">
-        <div class="ar_100per_250px">
-          {{ if .Params.img_url }}
-            <img src="/news/{{ .Params.post_url }}/{{ .Params.img_url }}"
-                class="object_fit__cover_top"
-                alt="{{ .Params.alt_txt }}"
-            />
-          {{ else if .Params.img_1 }}
-            {{- with resources.Get .Params.img_1 }}
-              <img src="{{ .RelPermalink }}"
+      <article class="flex flex-column news__card_item">
+        <a class="news__card_item_anchor" href="{{ .RelPermalink }}">
+          <div class="news_media__container ar_100per_250px">
+            {{ if .Params.img_url }}
+              <img src="/news/{{ .Params.post_url }}/{{ .Params.img_url }}"
                   class="object_fit__cover_top"
-                  alt=""
-                  style="opacity:0.65"
+                  alt="{{ .Params.alt_txt }}"
               />
+            {{ else if .Params.img_1 }}
+              {{- with resources.Get .Params.img_1 }}
+                <img src="{{ .RelPermalink }}"
+                    class="object_fit__cover_top"
+                    alt=""
+                    style="opacity:0.65"
+                />
+              {{ end }}
+            {{ else }}
+              {{- with resources.Get "images/logos/favicon.png" }}
+                <img src="{{ .RelPermalink }}"
+                    class="object_fit__cover_top"
+                    alt=""
+                    style="opacity:0.65"
+                />
+              {{ end }}
             {{ end }}
-          {{ else }}
-            {{- with resources.Get "images/logos/favicon.png" }}
-              <img src="{{ .RelPermalink }}"
-                  class="object_fit__cover_top"
-                  alt=""
-                  style="opacity:0.65"
-              />
+          </div>
+          <div class="news_content__container">
+            {{ if .Date }}
+            {{ $dateMachine := .Date | time.Format "2006-01-02T15:04:05-07:00" }}
+            {{ $dateHuman := .Date | time.Format ":date_long" }}
+            <div>
+              <p>
+                <small><time datetime="{{ $dateMachine }}">{{ $dateHuman }}</time></small>
+              </p>
+            </div>
             {{ end }}
-          {{ end }}
-        </div>
-        <div>
-          <h3><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h3>
-          {{ if .Params.byline }}
-          <p>
-            {{ .Params.byline }}
-          </p>
-          {{ else }}
-          <p>
-            {{ .Content | safeHTML | truncate 125 }}
-          </p>
-          {{ end }}
-          
-        </div>
-        
-      </div>
+
+            <h3>{{ .LinkTitle }}</h3>
+            
+            {{ if .Params.byline }}
+            <p>
+              {{ .Params.byline }}
+            </p>
+            {{ else }}
+            <p>
+              {{ .Content | safeHTML | truncate 125 }}
+            </p>
+            {{ end }}
+            
+          </div>
+        </a>
+      </article>
       {{ end }}
     </div>
   </div>

@@ -683,6 +683,44 @@ body {
 
 /* NEWS POSTS */
 
+.news__card_item {
+  position: relative;
+
+  &::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    background: var(--accentColor) url("/card-hover-bg.png") repeat bottom right;
+    z-index: 0;
+  }
+
+  &> .news__card_item_anchor {
+    display: block;
+    height: 100%;
+    padding: 1.2rem;
+    text-decoration: none;
+    background: var(--accentShade1);
+    transition: 0.2s;
+
+    &:hover {
+      transform: translate(-12px, -12px);
+      transition: 0.2s;
+    }
+  }
+
+  & h3 {
+    text-transform: unset;
+  }
+}
+.news_content__container,
+.news_media__container {
+  position: relative;
+  z-index: 2;
+}
+
 .news__single_post_container {
 
   img {
@@ -714,7 +752,7 @@ body {
 
 /* CITATIONS */
 
-.citations>cite {
+.citations > cite {
   display: block;
   color: var(--neutralShade8);
   font-style: normal;
@@ -785,7 +823,9 @@ body {
         margin-bottom: 2em;
         padding: 1.25em;
         background-color: var(--accentShade1);
-        box-shadow: var(--secondaryShade3) 0px 1px 1px, var(--secondaryShade5) 0px 0px 1px 1px;
+        box-shadow:
+          var(--secondaryShade3) 0px 1px 1px,
+          var(--secondaryShade5) 0px 0px 1px 1px;
 
         & picture,
         img {
@@ -820,7 +860,9 @@ body {
         margin-bottom: 2em;
         padding: 1.25em;
         background-color: var(--accentShade1);
-        box-shadow: var(--secondaryShade3) 0px 1px 1px, var(--secondaryShade5) 0px 0px 1px 1px;
+        box-shadow:
+          var(--secondaryShade3) 0px 1px 1px,
+          var(--secondaryShade5) 0px 0px 1px 1px;
 
         .card__main_image {
           flex: 1 0 250px;
@@ -846,7 +888,9 @@ body {
         background: var(--accentShade1);
         padding: 1.75em;
         box-shadow: 5px 2px 6px -1px var(--secondaryShade3);
-        box-shadow: var(--secondaryShade3) 0px 1px 1px, var(--secondaryShade5) 0px 0px 1px 1px;
+        box-shadow:
+          var(--secondaryShade3) 0px 1px 1px,
+          var(--secondaryShade5) 0px 0px 1px 1px;
 
         .card__main_image {
           flex: 1 0 320px;
@@ -865,8 +909,7 @@ body {
 
         .card__desc_wrapper {
 
-          h3,
-          p {
+          h3,p {
             margin: 10px 0;
           }
 
@@ -1038,8 +1081,8 @@ body {
     display: inline-block;
     text-decoration: none;
     background: linear-gradient(to right, var(--accentColor), var(--secondaryShade5));
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
     opacity: 0.85;
     transition: all 1s;
 

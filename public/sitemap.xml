@@ -2,10 +2,22 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/tags/awards/</loc>
-    <lastmod>2025-01-16T11:00:00-07:00</lastmod>
+    <loc>http://localhost:1313/tags/aqqaluk-trust/</loc>
+    <lastmod>2025-03-04T11:00:00-07:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/community-engaged-research/</loc>
+    <lastmod>2025-03-04T11:00:00-07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/news/2025-03-04-visit-kotzebue-at/</loc>
+    <lastmod>2025-03-04T11:00:00-07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2025-03-04T11:00:00-07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/visit/</loc>
+    <lastmod>2025-03-04T11:00:00-07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/awards/</loc>
     <lastmod>2025-01-16T11:00:00-07:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/idsov/</loc>
@@ -14,16 +26,13 @@
     <loc>http://localhost:1313/news/2025-01-16-cccc-award/</loc>
     <lastmod>2025-01-16T11:00:00-07:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
-    <lastmod>2025-01-16T11:00:00-07:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/tags/clir/</loc>
     <lastmod>2024-08-19T11:00:00-07:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/news/2024-08-19-clir-postdoc-report/</loc>
+    <loc>http://localhost:1313/tags/resources/</loc>
     <lastmod>2024-08-19T11:00:00-07:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/resources/</loc>
+    <loc>http://localhost:1313/news/2024-08-19-clir-postdoc-report/</loc>
     <lastmod>2024-08-19T11:00:00-07:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/conferences/</loc>

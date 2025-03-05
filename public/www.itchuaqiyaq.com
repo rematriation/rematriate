@@ -117,6 +117,10 @@
             </li>
           
             <li>
+              <a href="/tags/visit/">Visit</a> (1)
+            </li>
+          
+            <li>
               <a href="/tags/resources/">Resources</a> (1)
             </li>
           
@@ -149,6 +153,10 @@
             </li>
           
             <li>
+              <a href="/tags/aqqaluk-trust/">Aqqaluk Trust</a> (1)
+            </li>
+          
+            <li>
               <a href="/tags/resource/">Resource</a> (2)
             </li>
           
@@ -157,11 +165,11 @@
             </li>
           
             <li>
-              <a href="/tags/community-engaged-research/">Community-Engaged Research</a> (2)
+              <a href="/tags/idsov/">IDSov</a> (3)
             </li>
           
             <li>
-              <a href="/tags/idsov/">IDSov</a> (3)
+              <a href="/tags/community-engaged-research/">Community-Engaged Research</a> (3)
             </li>
           
         </ul>
