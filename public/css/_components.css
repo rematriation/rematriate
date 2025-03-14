@@ -736,11 +736,11 @@ body {
     width: 300px;
     margin:auto;
 
-    &:first {
+    &[src*="featured"] {
       display: block;
-      width: 200px;
-      float: left;
-      margin: 0 2rem 2rem 0;
+      /* float: left; */
+      margin: 0 0 2rem 0;
+      width: 100%;
     }
   }
 }
