@@ -226,3 +226,8 @@ FodyWeavers.xsd
 
 # JetBrains Rider
 *.sln.iml
+
+# OTHER
+redact__*
+*.HEIC
+*.MOV
