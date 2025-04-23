@@ -16,10 +16,10 @@
       <description></description>
     </item>
     <item>
-      <title>Community Engagement</title>
-      <link>http://localhost:1313/tags/community-engagement/</link>
+      <title>Community-Engaged Research</title>
+      <link>http://localhost:1313/tags/community-engaged-research/</link>
       <pubDate>Thu, 17 Apr 2025 11:00:00 -0700</pubDate>
-      <guid>http://localhost:1313/tags/community-engagement/</guid>
+      <guid>http://localhost:1313/tags/community-engaged-research/</guid>
       <description></description>
     </item>
     <item>
@@ -30,10 +30,24 @@
       <description></description>
     </item>
     <item>
-      <title>IDSov</title>
-      <link>http://localhost:1313/tags/idsov/</link>
+      <title>Data Colonialism</title>
+      <link>http://localhost:1313/tags/data-colonialism/</link>
       <pubDate>Thu, 17 Apr 2025 11:00:00 -0700</pubDate>
-      <guid>http://localhost:1313/tags/idsov/</guid>
+      <guid>http://localhost:1313/tags/data-colonialism/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Decolonization</title>
+      <link>http://localhost:1313/tags/decolonization/</link>
+      <pubDate>Thu, 17 Apr 2025 11:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/tags/decolonization/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Machine Learning</title>
+      <link>http://localhost:1313/tags/machine-learning/</link>
+      <pubDate>Thu, 17 Apr 2025 11:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/tags/machine-learning/</guid>
       <description></description>
     </item>
     <item>
@@ -44,6 +58,13 @@
       <description></description>
     </item>
     <item>
+      <title>Relational Approach to Archiving</title>
+      <link>http://localhost:1313/tags/relational-approach-to-archiving/</link>
+      <pubDate>Thu, 17 Apr 2025 11:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/tags/relational-approach-to-archiving/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>Aqqaluk Trust</title>
       <link>http://localhost:1313/tags/aqqaluk-trust/</link>
       <pubDate>Tue, 04 Mar 2025 11:00:00 -0700</pubDate>
@@ -51,17 +72,17 @@
       <description></description>
     </item>
     <item>
-      <title>Community-Engaged Research</title>
-      <link>http://localhost:1313/tags/community-engaged-research/</link>
-      <pubDate>Tue, 04 Mar 2025 11:00:00 -0700</pubDate>
-      <guid>http://localhost:1313/tags/community-engaged-research/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Visit</title>
       <link>http://localhost:1313/tags/visit/</link>
       <pubDate>Tue, 04 Mar 2025 11:00:00 -0700</pubDate>
       <guid>http://localhost:1313/tags/visit/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>IDSov</title>
+      <link>http://localhost:1313/tags/idsov/</link>
+      <pubDate>Thu, 16 Jan 2025 11:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/tags/idsov/</guid>
       <description></description>
     </item>
     <item>

@@ -8,7 +8,7 @@ byline: >-
   Reflections on Nalukataq, Cultural Humility, and some Big Wins writing with Community Partners.
 date: 2025-04-17T11:00:00-07:00
 draft: false
-tags: ['awards','community-engaged research', 'IDSov', 'cultural humility', 'nalukataq']
+tags: ['awards','community-engaged research', 'cultural humility', 'nalukataq']
 ---
 
 Post originally by Cana Uluak Itchuaqiyaq for [Respectful Research](https://respectfulresearch.com/).
@@ -53,11 +53,6 @@ Corina has long been an Iñupiaq scholar—deeply engaged in cultural leadership
 
 And since then, the Rematriation Project, has deepened our commitment to writing with our community partners, not just about them. Together, we’ve co-authored two academic articles with Aviññaq Lucy Boyd and Paisaq Dylan Itchuaqiyaq of Aqqaluk Trust in Kotzebue, Alaska.
 
-And... one of those was published online today (HOORAY!):​
-
-- 📘 Long, K., Itchuaqiyaq, C. U., Lindgren, C. A., Ogier, A., Boyd, L. A., Itchuaqiyaq, D. P., & Yunes, E. (2025). Reimagining Archives in the Age of Automation: A Decolonial and Relational Approach. *Technical Communication Quarterly*, 1–17. [https://doi.org/10.1080/10572252.2025.2490506](https://doi.org/10.1080/10572252.2025.2490506).
-  - **Abstract**: This article introduces the Relational Approach to Archiving (RAA) as a vital framework to combat the issues posed by data colonialism in traditional archival practices. RAA emphasizes the active involvement of communities in the archival process, ensuring that their cultural knowledge and values guide how materials are preserved and described. The article begins by exploring the challenges of data colonialism and the risks and opportunities of machine-learning technologies in archiving. It then presents RAA as a solution that prioritizes community agency and cultural sensitivity, while also discussing how new technologies can empower community-run archives with careful oversight.
-  - [50 free copies for those with no academic library access](https://www.tandfonline.com/eprint/H6ZTMDNNRWYGQCSAGQH4/full?target=10.1080/10572252.2025.2490506)
-  - [Link to article for those with academic access](https://doi.org/10.1080/10572252.2025.2490506)
+And... one of those articles was published online today (HOORAY!): See our post about [Reimagining Archives in the Age of Automation](/news/2025-04-17-reimagining-archives/).
 
 It’s another step in this movement toward rematriation.
