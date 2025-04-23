@@ -8,7 +8,7 @@ byline: >-
   Reflections on Nalukataq, Cultural Humility, and some Big Wins writing with Community Partners.
 date: 2025-04-17T11:00:00-07:00
 draft: false
-tags: ['awards','community engagement', 'IDSov', 'cultural humility', 'nalukataq']
+tags: ['awards','community-engaged research', 'IDSov', 'cultural humility', 'nalukataq']
 ---
 
 Post originally by Cana Uluak Itchuaqiyaq for [Respectful Research](https://respectfulresearch.com/).
