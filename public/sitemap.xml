@@ -2,37 +2,49 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://localhost:1313/tags/archiving-as-texting/</loc>
+    <lastmod>2025-05-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/news/2025-05-02-chass-seed-grant/</loc>
+    <lastmod>2025-05-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/camp-sivunniigvik/</loc>
+    <lastmod>2025-05-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/community-engaged-research/</loc>
+    <lastmod>2025-05-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/prototyping/</loc>
+    <lastmod>2025-05-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2025-05-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/data-colonialism/</loc>
+    <lastmod>2025-04-17T11:00:00-08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/decolonization/</loc>
+    <lastmod>2025-04-17T11:00:00-08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/machine-learning/</loc>
+    <lastmod>2025-04-17T11:00:00-08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/news/2025-04-17-reimagining-archives/</loc>
+    <lastmod>2025-04-17T11:00:00-08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/relational-approach-to-archiving/</loc>
+    <lastmod>2025-04-17T11:00:00-08:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/tags/awards/</loc>
     <lastmod>2025-04-17T11:00:00-07:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/news/2025-04-17-blanket-toss-big-wins/</loc>
     <lastmod>2025-04-17T11:00:00-07:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/community-engaged-research/</loc>
-    <lastmod>2025-04-17T11:00:00-07:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/tags/cultural-humility/</loc>
     <lastmod>2025-04-17T11:00:00-07:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/data-colonialism/</loc>
-    <lastmod>2025-04-17T11:00:00-07:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/decolonization/</loc>
-    <lastmod>2025-04-17T11:00:00-07:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/machine-learning/</loc>
-    <lastmod>2025-04-17T11:00:00-07:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/tags/nalukataq/</loc>
-    <lastmod>2025-04-17T11:00:00-07:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/news/2025-04-17-reimagining-archives/</loc>
-    <lastmod>2025-04-17T11:00:00-07:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/relational-approach-to-archiving/</loc>
-    <lastmod>2025-04-17T11:00:00-07:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/</loc>
     <lastmod>2025-04-17T11:00:00-07:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/aqqaluk-trust/</loc>

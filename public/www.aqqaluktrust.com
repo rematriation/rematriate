@@ -85,10 +85,10 @@
   </div>
   <nav class="nav__prev_next" role="navigation" aria-label="News post navigation menu">
     
-      <a href="/about/leads/5_paisaq/">← Previous</a>
+      <a href="/www.mumik.org">← Previous</a>
     
     
-      <a href="/www.mumik.org">Next →</a>
+      <a href="/www.itchuaqiyaq.com">Next →</a>
     
   </nav>
 </main>
@@ -135,6 +135,10 @@
             </li>
           
             <li>
+              <a href="/tags/prototyping/">Prototyping</a> (1)
+            </li>
+          
+            <li>
               <a href="/tags/nalukataq/">Nalukataq</a> (1)
             </li>
           
@@ -160,6 +164,14 @@
           
             <li>
               <a href="/tags/clir/">CLIR</a> (1)
+            </li>
+          
+            <li>
+              <a href="/tags/camp-sivunniigvik/">Camp Sivunniigvik</a> (1)
+            </li>
+          
+            <li>
+              <a href="/tags/archiving-as-texting/">Archiving as Texting</a> (1)
             </li>
           
             <li>
@@ -195,7 +207,7 @@
             </li>
           
             <li>
-              <a href="/tags/community-engaged-research/">Community-Engaged Research</a> (5)
+              <a href="/tags/community-engaged-research/">Community-Engaged Research</a> (6)
             </li>
           
         </ul>
@@ -239,3 +251,4 @@
 </footer>
 </body>
 </html>
+>

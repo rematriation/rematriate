@@ -16,9 +16,17 @@
     
     <div class="news__single_post_container">
       {{ if .Params.img_url }}
-      <div>
-        <img src="{{ .Params.img_url }}" alt="{{ .Params.alt_txt }}">
-      </div>
+        {{ if eq .Params.float_featured_img "TRUE" }}
+        <div class="float_featured_img">
+          <img src="{{ .Params.img_url }}"
+               alt="{{ .Params.alt_txt }}" 
+               style="height: {{ .Params.featured_img_height }}" />
+        </div>
+        {{ else }}
+          <div>
+            <img src="{{ .Params.img_url }}" alt="{{ .Params.alt_txt }}">
+          </div>
+        {{ end }}
       {{ end }}
       <div>
         {{ .Content }}
