@@ -19,7 +19,7 @@
         {{ $taxonomyObject := .Site.Taxonomies.tags }}
 
         <ul class="footer-links">
-          {{ range $taxonomyObject.ByCount.Reverse }}
+          {{ range $taxonomyObject.ByCount }}
             <li>
               <a href="{{ .Page.RelPermalink }}">{{ .Page.LinkTitle }}</a> ({{ .Count }})
             </li>

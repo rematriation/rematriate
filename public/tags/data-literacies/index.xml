@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Data Literacies on The Rematriation Project</title>
+    <link>http://localhost:1313/tags/data-literacies/</link>
+    <description>Recent content in Data Literacies on The Rematriation Project</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 26 Oct 2025 11:00:00 -0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/data-literacies/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>New article! &#34;From Notes to Networks: Using Obsidian to Teach Metadata and Linked Data&#34;</title>
+      <link>http://localhost:1313/news/2025-10-26-from-notes-to-networks-code4lib/</link>
+      <pubDate>Sun, 26 Oct 2025 11:00:00 -0800</pubDate>
+      <guid>http://localhost:1313/news/2025-10-26-from-notes-to-networks-code4lib/</guid>
+      <description>&lt;p&gt;Great news! Our academic article by Kara Long and Erin Yunes, which was about their collaborative metadata work with Paisaq, was published online today.&lt;/p&gt;&#xA;&lt;p&gt;📘 Long, K. &amp;amp; Yunes, E. (2025). From Notes to Networks: Using Obsidian to Teach Metadata and Linked Data. &lt;em&gt;Code4Lib&lt;/em&gt;, 61. &lt;a href=&#34;https://journal.code4lib.org/articles/18535&#34;&gt;https://journal.code4lib.org/articles/18535&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Abstract&lt;/strong&gt;: In this article, we describe a novel use of the note-taking software Obsidian as a method for users without formal training in metadata creation to develop culturally relevant data literacies across two digital archiving projects. We explain how Obsidian’s built-in use of linked data provides an open-source, flexible, and potentially scalable way for users to creatively interact with digitized materials, navigate and create metadata, and model relationships between digital objects. Furthermore, we demonstrate how Obsidian’s local and offline hosting features can be leveraged to include team members with low or unreliable internet access.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;We&amp;rsquo;re thankful as well that Mita Williams shared her thoughts about Kara and Erin&amp;rsquo;s work with Paisaq on her blog, &lt;a href=&#34;https://librarian.aedileworks.com/2025/10/22/creating-with-instead-of-creating-for/&#34;&gt;Librarian of Things&lt;/a&gt;:&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

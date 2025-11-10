@@ -1,5 +1,5 @@
-/* @import url('_typography.css');
-@import url('_components.css'); */
+@import url('_typography.css');
+@import url('_components.css');
 @import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Inter&family=Lobster&display=swap');
 
 :root {
@@ -184,7 +184,6 @@ img {
       display: inline-block;
 
       a {
-        text-transform: uppercase;
         color: var(--secondaryShade5);
         display: block;
         margin: 0;
@@ -338,7 +337,6 @@ img {
   .nav__main_menu li a {
     /* padding: 22px 25px; */
     line-height: 1;
-    text-transform: uppercase;
     transition: 0.3s;
   }
 
@@ -604,7 +602,6 @@ img {
   & h2 {
     color: var(--primaryColor);
     font-size: 16px;
-    text-transform: uppercase;
     margin-top: 5px;
     letter-spacing: 2px
   }
@@ -1153,7 +1150,17 @@ img {
 }
 
 .cols_two_1fr { grid-template-columns: repeat(2, 1fr); }
-.cols_three_1fr { grid-template-columns: repeat(3, 1fr); }
+.cols_three_1fr {
+  grid-template-columns: repeat(3, 1fr);
+
+  @media screen and (max-width: 580px) {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  @media screen and (min-width: 580px) and (max-width: 980px) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
 
 .grid__gap_1rem { gap: 1rem; }
 .grid__gap_2rem { gap: 3rem; }

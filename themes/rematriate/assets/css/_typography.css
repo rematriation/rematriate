@@ -53,7 +53,6 @@ code {
 h1,
 h2,
 h3 {
-  text-transform: uppercase;
   font-weight: 600;
 }
 
@@ -94,6 +93,11 @@ ul,
 ol {
   margin: 2rem 0;
   line-height: 1.5;
+}
+
+blockquote {
+  background: var(--accentShade1);
+  padding: var(--spacing-medium);
 }
 
 /* Initial Letter Effect */
