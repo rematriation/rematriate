@@ -132,6 +132,14 @@
             </li>
           
             <li>
+              <a href="/tags/data-literacies/">Data Literacies</a> (2)
+            </li>
+          
+            <li>
+              <a href="/tags/learn-through-data/">Learn Through Data</a> (2)
+            </li>
+          
+            <li>
               <a href="/tags/networking/">Networking</a> (2)
             </li>
           
@@ -172,10 +180,6 @@
             </li>
           
             <li>
-              <a href="/tags/data-literacies/">Data Literacies</a> (1)
-            </li>
-          
-            <li>
               <a href="/tags/decolonization/">Decolonization</a> (1)
             </li>
           
@@ -184,7 +188,11 @@
             </li>
           
             <li>
-              <a href="/tags/learn-through-data/">Learn Through Data</a> (1)
+              <a href="/tags/grant/">Grant</a> (1)
+            </li>
+          
+            <li>
+              <a href="/tags/imls/">IMLS</a> (1)
             </li>
           
             <li>
@@ -209,6 +217,10 @@
           
             <li>
               <a href="/tags/prototyping/">Prototyping</a> (1)
+            </li>
+          
+            <li>
+              <a href="/tags/reclaim-our-data/">Reclaim Our Data</a> (1)
             </li>
           
             <li>
@@ -265,7 +277,7 @@
     <div class="row">
       <div class="col-md-8 col-sm-6 col-xs-12">
         <p class="copyright-text">
-          Copyright &copy; 2025 All Rights Reserved by The Rematriation Project.
+          Copyright &copy; 2026 All Rights Reserved by The Rematriation Project.
         </p>
       </div>
 

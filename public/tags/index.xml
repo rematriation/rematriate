@@ -44,6 +44,27 @@
       <description></description>
     </item>
     <item>
+      <title>Grant</title>
+      <link>http://localhost:1313/tags/grant/</link>
+      <pubDate>Thu, 25 Sep 2025 11:00:00 -0800</pubDate>
+      <guid>http://localhost:1313/tags/grant/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>IMLS</title>
+      <link>http://localhost:1313/tags/imls/</link>
+      <pubDate>Thu, 25 Sep 2025 11:00:00 -0800</pubDate>
+      <guid>http://localhost:1313/tags/imls/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Reclaim Our Data</title>
+      <link>http://localhost:1313/tags/reclaim-our-data/</link>
+      <pubDate>Thu, 25 Sep 2025 11:00:00 -0800</pubDate>
+      <guid>http://localhost:1313/tags/reclaim-our-data/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>Archiving as Texting</title>
       <link>http://localhost:1313/tags/archiving-as-texting/</link>
       <pubDate>Fri, 02 May 2025 00:00:00 +0000</pubDate>
