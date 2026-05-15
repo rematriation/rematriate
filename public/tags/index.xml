@@ -6,8 +6,29 @@
     <description>Recent content in Tags on The Rematriation Project</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 26 Oct 2025 11:00:00 -0800</lastBuildDate>
+    <lastBuildDate>Wed, 15 Apr 2026 11:00:00 -0800</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Conference</title>
+      <link>http://localhost:1313/tags/conference/</link>
+      <pubDate>Wed, 15 Apr 2026 11:00:00 -0800</pubDate>
+      <guid>http://localhost:1313/tags/conference/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>REAL CARE</title>
+      <link>http://localhost:1313/tags/real-care/</link>
+      <pubDate>Wed, 15 Apr 2026 11:00:00 -0800</pubDate>
+      <guid>http://localhost:1313/tags/real-care/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>USIDSG</title>
+      <link>http://localhost:1313/tags/usidsg/</link>
+      <pubDate>Wed, 15 Apr 2026 11:00:00 -0800</pubDate>
+      <guid>http://localhost:1313/tags/usidsg/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Data Literacies</title>
       <link>http://localhost:1313/tags/data-literacies/</link>

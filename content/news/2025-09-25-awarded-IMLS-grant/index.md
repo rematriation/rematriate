@@ -13,7 +13,11 @@ draft: false
 tags: ['data literacies', 'grant', 'IMLS', 'Learn through data', 'Reclaim our data']
 ---
 
-Great news! Our team was awarded a $239,742 grant from the Laura Bush 21st (LB21) Century Librarian program run by the Institute of Museums and Library Services (IMLS).
+Great news! Our team was awarded a $247,362 grant from the Laura Bush 21st (LB21) Century Librarian program run by the Institute of Museums and Library Services (IMLS) (Log Number: RE-259004-OLS-25).
+
+Here's a summary, which is also posted on the [IMLS website](https://www.imls.gov/grants/awarded/re-259004-ols-25-1):
+
+> Virginia Tech (VT), in partnership with Aqqaluk Trust (AT) in Alaska, will create and test a model for community archiving that addresses issues with long-term project sustainability that community archives often face. The workshop will integrate a dual-training program model that helps (1) existing library and archives professionals develop key relationship-building skills to ensure the community archive meets practical needs, while also providing community members with informal STEM skills learning. Participants in the pilot workshop will include Tribal village liaisons, community members in the Northwest Arctic Borough (NWAB) of Alaska, and libraries and archives professionals and beneficiaries will include library and archives professionals working with community archiving and the communities they serve.
 
 This workshop will center capacity-building for integral community members invested in archival interventions with their local goals to preserve, organize, and share their knowledge and data.
 

@@ -2,6 +2,21 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://localhost:1313/news/2026-04-15-usidsg-summit/</loc>
+    <lastmod>2026-04-15T11:00:00-08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/conference/</loc>
+    <lastmod>2026-04-15T11:00:00-08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/real-care/</loc>
+    <lastmod>2026-04-15T11:00:00-08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2026-04-15T11:00:00-08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/usidsg/</loc>
+    <lastmod>2026-04-15T11:00:00-08:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/tags/data-literacies/</loc>
     <lastmod>2025-10-26T11:00:00-08:00</lastmod>
   </url><url>
@@ -20,19 +35,16 @@
     <loc>http://localhost:1313/tags/obsidian/</loc>
     <lastmod>2025-10-26T11:00:00-08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
-    <lastmod>2025-10-26T11:00:00-08:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/tags/grant/</loc>
     <lastmod>2025-09-25T11:00:00-08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/imls/</loc>
     <lastmod>2025-09-25T11:00:00-08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/news/2025-09-25-awarded-imls-grant/</loc>
+    <loc>http://localhost:1313/tags/reclaim-our-data/</loc>
     <lastmod>2025-09-25T11:00:00-08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/reclaim-our-data/</loc>
+    <loc>http://localhost:1313/news/2025-09-25-awarded-imls-grant/</loc>
     <lastmod>2025-09-25T11:00:00-08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/archiving-as-texting/</loc>

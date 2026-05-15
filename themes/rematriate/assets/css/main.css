@@ -580,7 +580,8 @@ img {
     display: flex;
     flex-wrap: wrap;
     gap: 1.5rem;
-    margin: 0 3rem;
+    max-width: 1080px;
+    margin: auto;
 
     & > div:first-child {
       flex: 1 0 300px;
@@ -771,17 +772,10 @@ img {
   margin-left: auto
 }
 
-.mw6 {
-  max-width: 32rem
-}
-
-.mw7 {
-  max-width: 48rem
-}
-
-.mw8 {
-  max-width: 64rem
-}
+.mw6 { max-width: 32rem }
+.mw7 { max-width: 48rem }
+.mw7_5 { max-width: 52rem }
+.mw8 { max-width: 64rem }
 
 .cms {
   margin: auto
