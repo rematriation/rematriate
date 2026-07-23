@@ -56,7 +56,7 @@
       <a class="pa3 no-underline db" href="/">Home</a>
     </li>
     <li>
-      <a class="pa3 no-underline db" href="/about/">About</a>
+      <a class="pa3 no-underline db" aria-current="true" class="ancestor" href="/about/">About</a>
     </li>
     <li>
       <a class="pa3 no-underline db" href="/projects/">Projects</a>
@@ -72,105 +72,27 @@
 
 </div>
 
-<main class="mt4 cms mw8 ph3">
+<main class="mt4 center mw7 ph3 ">
   <div id=''>
-    <h2></h2>
-    <h2 id="main-project-goals--phases">Main Project Goals &amp; Phases</h2>
-<p>We have currently set out to achieve the following four goals:</p>
-<ol>
-<li>Digitize and catalog tribal materials (e.g., papers, videos, photos, notes),</li>
-<li>Create guides and curriculum for developing local capacities and data literacies related to digital archiving, including cataloging metadata and using existing online archival tools,</li>
-<li>Design and test a digital archiving workflow that is specifically created for Inuit communities to maintain and  access community databases, and</li>
-<li>Develop a protocol for Indigenous data and research sovereignty to protect community knowledges and practices.</li>
-</ol>
+    <h1></h1>
 
-    <div class="grid cols_three_1fr grid__gap_2rem">
+    
+    
+    <div class="news__single_post_container">
       
-      <article class="flex flex-column news__card_item">
-        <a class="news__card_item_anchor" href="/phases/phase-1/">
-          <div class="news_media__container ar_100per_250px">
-            
-                <img src="/images/logos/favicon.png"
-                    class="object_fit__cover_top"
-                    alt=""
-                    style="opacity:0.65"
-                />
-              
-            
-          </div>
-          <div class="news_content__container">
-            
-
-            <h3></h3>
-            
-            
-            <p>
-              
-            </p>
-            
-            
-          </div>
-        </a>
-      </article>
-      
-      <article class="flex flex-column news__card_item">
-        <a class="news__card_item_anchor" href="/phases/phase-2/">
-          <div class="news_media__container ar_100per_250px">
-            
-                <img src="/images/logos/favicon.png"
-                    class="object_fit__cover_top"
-                    alt=""
-                    style="opacity:0.65"
-                />
-              
-            
-          </div>
-          <div class="news_content__container">
-            
-
-            <h3></h3>
-            
-            
-            <p>
-              
-            </p>
-            
-            
-          </div>
-        </a>
-      </article>
-      
-      <article class="flex flex-column news__card_item">
-        <a class="news__card_item_anchor" href="/phases/phase-3/">
-          <div class="news_media__container ar_100per_250px">
-            
-                <img src="/images/logos/favicon.png"
-                    class="object_fit__cover_top"
-                    alt=""
-                    style="opacity:0.65"
-                />
-              
-            
-          </div>
-          <div class="news_content__container">
-            
-
-            <h3></h3>
-            
-            
-            <p>
-              
-            </p>
-            
-            
-          </div>
-        </a>
-      </article>
-      
+      <div>
+        
+      </div>
     </div>
+    
   </div>
+  <nav class="nav__prev_next" role="navigation" aria-label="News post navigation menu">
+    
+      <a href="/www.northlightfoundation.org">← Previous</a>
+    
+    
+  </nav>
 </main>
-
 
   </div>
   
@@ -183,7 +105,7 @@
       <div class="about__container">
         <h2>About</h2>
         <p>
-          The Rematriation Project is a digital archiving project directed by an Iñupiaq-led and serving tribal organization, Aqqaluk Trust, in Kotzebue, Alaska. Our project's aim is to create capacity for and access to digital archives related to Inuit cultural, tribal, scientific knowledges, and history to assist tribes and communities. In partnership with a team of scholars (itself led by an Iñupiaq scholar from Kotzebue) from Virginia Tech and North Carolina State University, we operate on a foundation of community-first, community-led decision making. We seek to empower Indigenous communities with self-determined data and research sovereignty to collect, control, interpret, and benefit from data that originates from their communities.
+          The Rematriation Project is a digital archiving project directed by an Iñupiaq-led and serving tribal organization, Aqqaluk Trust, in Kotzebue, Alaska. Our project's aim is to create capacity for and access to digital archives related to Inuit cultural, tribal, scientific knowledges, and history to assist tribes and communities. In partnership with a team of scholars (itself led by an Iñupiaq scholar from Kotzebue) from Virginia Tech, North Carolina State University, and American College of the Mediterranean, we operate on a foundation of community-first, community-led decision making. We seek to empower Indigenous communities with self-determined data and research sovereignty to collect, control, interpret, and benefit from data that originates from their communities.
         </p>
       </div>
 
@@ -345,7 +267,7 @@
       <a class="pa3 no-underline db" href="/">Home</a>
     </li>
     <li>
-      <a class="pa3 no-underline db" href="/about/">About</a>
+      <a class="pa3 no-underline db" aria-current="true" class="ancestor" href="/about/">About</a>
     </li>
     <li>
       <a class="pa3 no-underline db" href="/projects/">Projects</a>

@@ -107,7 +107,7 @@
       <div class="about__container">
         <h2>About</h2>
         <p>
-          The Rematriation Project is a digital archiving project directed by an Iñupiaq-led and serving tribal organization, Aqqaluk Trust, in Kotzebue, Alaska. Our project's aim is to create capacity for and access to digital archives related to Inuit cultural, tribal, scientific knowledges, and history to assist tribes and communities. In partnership with a team of scholars (itself led by an Iñupiaq scholar from Kotzebue) from Virginia Tech, North Carolina State University, and American College of the Mediterranean, we operate on a foundation of community-first, community-led decision making. We seek to empower Indigenous communities with self-determined data and research sovereignty to collect, control, interpret, and benefit from data that originates from their communities.
+          The Rematriation Project is a digital archiving project directed by an Iñupiaq-led and serving tribal organization, Aqqaluk Trust, in Kotzebue, Alaska. Our project's aim is to create capacity for and access to digital archives related to Inuit cultural, tribal, scientific knowledges, and history to assist tribes and communities. In partnership with a team of scholars (itself led by an Iñupiaq scholar from Kotzebue) from Virginia Tech and North Carolina State University, we operate on a foundation of community-first, community-led decision making. We seek to empower Indigenous communities with self-determined data and research sovereignty to collect, control, interpret, and benefit from data that originates from their communities.
         </p>
       </div>
 

@@ -11,30 +11,73 @@
       
       <!-- Start Cards -->
       {{ with .Site.GetPage "/about/sponsors" }}
-        {{ range .Pages }}
 
-          <div class="float_left_card__inner_wrapper">
-            {{ if .Params.img_src }}
-              <div class="card__main_image">
-                {{ $img_url := .Params.img_src }}
-                {{- with resources.Get $img_url }}
-                  <img src="{{ .RelPermalink }}" 
-                        width="300" height="300"
-                        alt="">
-                {{- end}}
+        <h3>Grants Awarded</h3>
+        {{ range .Pages }}
+          {{ $grantCheck := .Params.grant_check }}
+          <!-- GRANTS -->
+          {{ if eq $grantCheck "true" }}
+            <div class="float_left_card__inner_wrapper">
+              {{ if .Params.img_src }}
+                <div class="card__main_image sponsors">
+                  {{ $img_url := .Params.img_src }}
+                  {{- with resources.Get $img_url }}
+                    <img src="{{ .RelPermalink }}"
+                          width="300" height="300"
+                          alt="">
+                  {{- end}}
+                </div>
+              {{ end }}
+              <div class="card__desc_wrapper">
+                <h3 class="card__main_name">{{ .Params.organization }}</h3>
+                <p class="card__sub_name"><strong>Award</strong>: {{ .Params.award_amount }}</p>
+                <p class="card__sub_name"><strong>Fiscal Year</strong>: {{ .Params.fiscal_year }}</p>
+                <p class="card__sub_name">
+                  <strong>Organization Type</strong>: {{ .Params.org_type }}
+                </p>
+                <a class="card__link" href="https://{{ .Params.url | safeURL }}" target="_blank" rel="nopenner noreferrer">
+                  {{ .Params.urltext }}
+                </a>
+                <p>
+                  <strong>Granting Organization</strong>: {{ .Params.bio }}
+                </p>
+                <p>
+                  <strong>Aims</strong>: {{ .Params.purpose }}
+                </p>
               </div>
-            {{ end }}
-            <div class="card__desc_wrapper">
-              <h3 class="card__main_name">{{ .Params.organization }}</h3>
-              <p class="card__sub_name">{{ .Params.org_type }}</p>
-              <a class="card__link" href="https://{{ .Params.url | safeURL }}" target="_blank" rel="nopenner noreferrer">
-                {{ .Params.urltext }}
-              </a>
-              <p>
-                {{ .Params.bio }}
-              </p>
             </div>
-          </div>
+          {{ end }}
+        {{ end }}
+
+        <h3>Other Sponsors</h3>
+        {{ range .Pages }}
+          {{ $grantCheck := .Params.grant_check }}
+          {{ if eq $grantCheck "false" }}
+            <div class="float_left_card__inner_wrapper">
+              {{ if .Params.img_src }}
+                <div class="card__main_image sponsors">
+                  {{ $img_url := .Params.img_src }}
+                  {{- with resources.Get $img_url }}
+                    <img src="{{ .RelPermalink }}"
+                          width="300" height="300"
+                          alt="">
+                  {{- end}}
+                </div>
+              {{ end }}
+              <div class="card__desc_wrapper">
+                <h3 class="card__main_name">{{ .Params.organization }}</h3>
+                <p class="card__sub_name">
+                  <strong>Organization Type</strong>: {{ .Params.org_type }}
+                </p>
+                <a class="card__link" href="https://{{ .Params.url | safeURL }}" target="_blank" rel="nopenner noreferrer">
+                  {{ .Params.urltext }}
+                </a>
+                <p>
+                  {{ .Params.bio }}
+                </p>
+              </div>
+            </div>
+          {{ end }}
         {{ end }}
       {{ end }}
       <!-- End Cards -->

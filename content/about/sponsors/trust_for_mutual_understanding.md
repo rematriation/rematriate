@@ -6,5 +6,6 @@ urltext: 'tmuny.org'
 bio: >-
    The Trust for Mutual Understanding (TMU) awards grants to American nonprofit organizations to support direct exchange in the arts and the environment (and the intersection of the two) between professionals. 
 img_src: "/images/headshots/TMU_logo_lockpu_color.jpg"
+grant_check: "false"
 # tags: ['red','green','blue']
 ---

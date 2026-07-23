@@ -3,9 +3,9 @@
 
 <section role="region" class="rematriation-relative card__sections">
 
-  <div id="current_partners" class="cards__main_external_wrapper">
+  <div id="former_partners" class="cards__main_external_wrapper">
 
-    <h2 id="">{{ $pageLeads.Title }}</h2>
+    <h2 id="former_leads">Former Leads</h2>
 
     <div class="cards__sub_container project_partners">
       
@@ -13,7 +13,7 @@
       {{ with .Site.GetPage "/about/leads" }}
         {{ range .Pages }}
           {{ $leadStatus := .Params.status }}
-          {{ if eq $leadStatus "true" }}
+          {{ if eq $leadStatus "false" }}
             <div class="card__project_leads_container">
               <h3 class="card__main_name">
                 {{ .Params.name }} <span>{{ .Params.pronouns }}</span>

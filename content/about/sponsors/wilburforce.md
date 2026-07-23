@@ -6,5 +6,6 @@ urltext: 'wilburforce.org'
 bio: >-
    The Wilburforce Foundation empowers conservation leaders to protect the irreplaceable lands, waters, and wildlife of western North America. 
 img_src: "/images/headshots/wf_logo_500x500.jpg"
+grant_check: "false"
 # tags: ['red','green','blue']
 ---

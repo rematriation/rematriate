@@ -861,15 +861,15 @@ body {
 
         & picture,
         img {
-          max-width: 320px;
-          min-width: 200px;
+          max-width: 190px;
+          min-width: 165px;
           float: left;
           margin: 1rem 1rem 1rem 0;
           shape-outside: circle();
           border-radius: 50%;
           height: auto;
 
-          @media screen and (max-width: 820px) {
+          @media screen and (max-width: 830px) {
             float: unset;
             max-width: unset;
             min-width: unset;
@@ -936,6 +936,11 @@ body {
             float: left;
             shape-outside: circle();
             margin-right: 2.25em;
+          }
+          /* Sponsor Images */
+          &.sponsors > img {
+            shape-outside: none;
+            border-radius: 0;
           }
         }
 
