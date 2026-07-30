@@ -904,11 +904,37 @@ body {
             border-radius: 50%;
             box-shadow: 4px 0px 7px -6px var(--secondaryShade3);
           }
+
+          &.supports_img {
+            flex: 1 1 190px;
+
+            img {
+              width: 190px;
+              height: 190px;
+            }
+          }
         }
 
-        .card__sub_name {
-          font-style: italic;
-          margin-bottom: 1em;
+        .card__desc_wrapper {
+          .card__sub_name {
+            font-style: italic;
+            margin-bottom: 1em;
+          }
+
+          &.supports_desc {
+            h3 {
+              font-size: 1.25rem;
+              margin-bottom: 0rem;
+            }
+            .card__sub_name {
+              margin: 0;
+            }
+            p { font-size: 0.85rem; }
+          }
+        }
+
+        &.supports_wrapper {
+          flex: 0 1 238px;
         }
       }
 

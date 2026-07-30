@@ -13,9 +13,9 @@
       {{ with .Site.GetPage "/about/supports" }}
         {{ range .Pages }}
 
-          <div class="card__inner_wrapper">
+          <div class="card__inner_wrapper supports_wrapper">
             {{ if .Params.img_src }}
-              <div class="card__main_image">
+              <div class="card__main_image supports_img">
                 {{ $img_url := .Params.img_src }}
                 {{- with resources.Get $img_url }}
                   <img src="{{ .RelPermalink }}" 
@@ -24,7 +24,7 @@
                 {{- end}}
               </div>
             {{ else }}
-              <div class="card__main_image">
+              <div class="card__main_image supports_img">
                 {{ $img_url := "/images/logos/rematriation-logo-new-aspect-1-1.svg" }}
                 {{- with resources.Get $img_url }}
                   <img src="{{ .RelPermalink }}" 
@@ -33,10 +33,10 @@
                 {{- end}}
               </div>
             {{ end }}
-            <div class="card__desc_wrapper">
+            <div class="card__desc_wrapper supports_desc">
               <h3 class="card__main_name">{{ .Params.name }}</h3>
               <p class="card__sub_name">{{ .Params.jobtitle }}</p>
-              <p>
+              <p class="card__bio">
                 {{ .Params.bio }}
               </p>
             </div>
