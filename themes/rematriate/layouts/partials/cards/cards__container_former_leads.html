@@ -12,6 +12,7 @@
       <!-- Start Cards -->
       {{ with .Site.GetPage "/about/leads" }}
         {{ range .Pages }}
+          {{ $isOrg := .Params.is_org }}
           {{ $leadStatus := .Params.status }}
           {{ if eq $leadStatus "false" }}
             <div class="card__project_leads_container">
@@ -37,10 +38,15 @@
 
               <!-- BIO COPY -->
               <div class="card__desc_wrapper">
-                <p class="partner_title">
-                  {{ if .Params.community }}
-                    <em>{{ .Params.jobtitle }} at {{ end }} {{ .Params.organization }}</em>
-                </p>
+                {{ if eq $isOrg "true" }}
+                  <p class="partner_title">
+                    <em>{{ .Params.organization }}</em>
+                  </p>
+                {{ else }}
+                  <p class="partner_title">
+                      <em>{{ .Params.jobtitle }} at {{ .Params.organization }}</em>
+                  </p>
+                {{ end }}
 
                 {{ if .Params.url }}
                   <p>

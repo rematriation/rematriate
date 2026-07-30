@@ -4,6 +4,7 @@ name: 'Aqqaluk Trust'
 # community: ''
 # jobtitle: ''
 organization: 'Native Alaskan Organization'
+is_org: "true"
 url: www.aqqaluktrust.com
 urltext: 'aqqaluktrust.com'
 bio: >-
