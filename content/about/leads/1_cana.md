@@ -2,7 +2,7 @@
 name: 'Dr. Cana Uluak Itchuaqiyaq'
 pronouns: 'She/They'
 community: 'Iñupiaq, Noorvik Native Community'
-jobtitle: 'Assistant Professor of Technical & Scientific Communication'
+jobtitle: 'Associate Professor of Technical & Scientific Communication'
 organization: 'Virginia Tech'
 url: www.itchuaqiyaq.com
 urltext: 'itchuaqiyaq.com'
