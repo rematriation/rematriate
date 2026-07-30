@@ -2,6 +2,27 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://localhost:1313/tags/community-engaged-research/</loc>
+    <lastmod>2026-06-01T11:00:00-07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/data-literacies/</loc>
+    <lastmod>2026-06-01T11:00:00-07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/idsov/</loc>
+    <lastmod>2026-06-01T11:00:00-07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/mystery/</loc>
+    <lastmod>2026-06-01T11:00:00-07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/news/2026-06-01-imls-workshop/</loc>
+    <lastmod>2026-06-01T11:00:00-07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2026-06-01T11:00:00-07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/workshop/</loc>
+    <lastmod>2026-06-01T11:00:00-07:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/news/2026-04-15-usidsg-summit/</loc>
     <lastmod>2026-04-15T11:00:00-08:00</lastmod>
   </url><url>
@@ -11,14 +32,8 @@
     <loc>http://localhost:1313/tags/real-care/</loc>
     <lastmod>2026-04-15T11:00:00-08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
-    <lastmod>2026-04-15T11:00:00-08:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/tags/usidsg/</loc>
     <lastmod>2026-04-15T11:00:00-08:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/data-literacies/</loc>
-    <lastmod>2025-10-26T11:00:00-08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/learn-through-data/</loc>
     <lastmod>2025-10-26T11:00:00-08:00</lastmod>
@@ -54,9 +69,6 @@
     <lastmod>2025-05-02T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/camp-sivunniigvik/</loc>
-    <lastmod>2025-05-02T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/community-engaged-research/</loc>
     <lastmod>2025-05-02T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/prototyping/</loc>
@@ -97,9 +109,6 @@
   </url><url>
     <loc>http://localhost:1313/tags/visit/</loc>
     <lastmod>2025-03-04T11:00:00-07:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/idsov/</loc>
-    <lastmod>2025-01-16T11:00:00-07:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/news/2025-01-16-cccc-award/</loc>
     <lastmod>2025-01-16T11:00:00-07:00</lastmod>
@@ -159,11 +168,11 @@
   </url><url>
     <loc>http://localhost:1313/wilburforce.org</loc>
   </url><url>
+    <loc>http://localhost:1313/about/supports/1_julia_westblade/</loc>
+  </url><url>
     <loc>http://localhost:1313/about/supports/amilia_evans/</loc>
   </url><url>
     <loc>http://localhost:1313/about/supports/chloe_robertson/</loc>
-  </url><url>
-    <loc>http://localhost:1313/about/supports/julia_spencer/</loc>
   </url><url>
     <loc>http://localhost:1313/about/supports/kimani_jackson/</loc>
   </url><url>

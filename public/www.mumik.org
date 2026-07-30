@@ -118,11 +118,15 @@
         <ul class="footer-links">
           
             <li>
-              <a href="/tags/community-engaged-research/">Community-Engaged Research</a> (6)
+              <a href="/tags/community-engaged-research/">Community-Engaged Research</a> (7)
             </li>
           
             <li>
-              <a href="/tags/idsov/">IDSov</a> (4)
+              <a href="/tags/idsov/">IDSov</a> (5)
+            </li>
+          
+            <li>
+              <a href="/tags/data-literacies/">Data Literacies</a> (3)
             </li>
           
             <li>
@@ -131,10 +135,6 @@
           
             <li>
               <a href="/tags/conferences/">Conferences</a> (2)
-            </li>
-          
-            <li>
-              <a href="/tags/data-literacies/">Data Literacies</a> (2)
             </li>
           
             <li>
@@ -214,6 +214,10 @@
             </li>
           
             <li>
+              <a href="/tags/mystery/">MYSTERY</a> (1)
+            </li>
+          
+            <li>
               <a href="/tags/nalukataq/">Nalukataq</a> (1)
             </li>
           
@@ -255,6 +259,10 @@
           
             <li>
               <a href="/tags/wikibase/">Wikibase</a> (1)
+            </li>
+          
+            <li>
+              <a href="/tags/workshop/">Workshop</a> (1)
             </li>
           
         </ul>
