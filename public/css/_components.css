@@ -1592,9 +1592,13 @@ body {
   }
 }
 
-.projects__cta_container {
-  padding: 1rem;
-  background-color: var(--accentShade1);
-  text-align: center;
-  font-size: 2rem;
+.cta_container {
+
+  & > p {
+    margin: 0;
+    padding: 1rem;
+    background-color: var(--accentShade1);
+    text-align: center;
+    font-size: 2rem;
+  }
 }

@@ -18,21 +18,25 @@ pageRef = '/about'
 weight = 20
 
 [[menus.main]]
-name = 'Projects'
-pageRef = '/projects'
+name = 'Sponsors'
+pageRef = '/sponsors'
 weight = 30
 
+[[menus.main]]
+name = 'Projects'
+pageRef = '/projects'
+weight = 40
 
 
 [[menus.main]]
 name = 'News'
 pageRef = '/news'
-weight = 40
+weight = 50
 
 [[menus.main]]
 name = 'Tracing Rematriation'
 pageRef = '/rema'
-weight = 50
+weight = 60
 
 # [[menus.main]]
 # name = 'Tags'

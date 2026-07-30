@@ -3,14 +3,14 @@
 
 <section role="region" class="rematriation-relative card__sections">
 
-  <div id="current_partners" class="cards__main_external_wrapper card__regular_wrapped_flex">
+  <div id="rema_sponsors" class="cards__main_external_wrapper card__regular_wrapped_flex mw7 cms">
 
     <h2 id="">{{ $pageSponsors.Title }}</h2>
 
     <div class="cards__sub_container">
       
-      <!-- Start Cards -->
-      {{ with .Site.GetPage "/about/sponsors" }}
+      <!-- Start GRANT Cards -->
+      {{ with .Site.GetPage "/sponsors/grants" }}
 
         <h3>Grants Awarded</h3>
         {{ range .Pages }}
@@ -48,8 +48,13 @@
             </div>
           {{ end }}
         {{ end }}
+      {{ end }}
+      <!-- End GRANT Cards -->
 
-        <h3>Other Sponsors</h3>
+      <!-- Start PRIVATE Cards -->
+      {{ with .Site.GetPage "/sponsors/private" }}
+
+        <h3>Charitable &amp; Private Sponsors</h3>
         {{ range .Pages }}
           {{ $grantCheck := .Params.grant_check }}
           {{ if eq $grantCheck "false" }}
@@ -80,7 +85,7 @@
           {{ end }}
         {{ end }}
       {{ end }}
-      <!-- End Cards -->
+      <!-- End Private Cards -->
 
     </div>
   </div>
