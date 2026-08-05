@@ -2,7 +2,7 @@
 organization: 'Council on Library and Information Resources'
 grant_name: 'Recordings At Risk (Cycle 13)'
 org_type: "Nonprofit Organization"
-url: "www.clir.org/recordings-at-risk/funded-projects/#elementor-tab-title-1841"
+url: "www.clir.org/recordings-at-risk/funded-projects/"
 urltext: 'clir.org/recordings-at-risk/funded-projects/'
 grant_title: "Preserving Iñupiat Ilitqusiat: Digitizing Audiovisual Records of Northwest Alaskan Iñupiat Knowledge Bearers’ Voices & Values, 1970s-2010s"
 bio: >-
