@@ -184,6 +184,10 @@
   </url><url>
     <loc>http://localhost:1313/phases/phase-3/</loc>
   </url><url>
+    <loc>http://localhost:1313/clir.org/recordings-at-risk/funded-projects/%23elementor-tab-title-1841</loc>
+  </url><url>
+    <loc>http://localhost:1313/imls.gov/grants/awarded/re-259004-ols-25-1</loc>
+  </url><url>
     <loc>http://localhost:1313/imls.gov/grants/awarded/re-259004-ols-25-1</loc>
   </url><url>
     <loc>http://localhost:1313/www.northlightfoundation.org</loc>
@@ -200,9 +204,13 @@
   </url><url>
     <loc>http://localhost:1313/categories/</loc>
   </url><url>
+    <loc>http://localhost:1313/sponsors/private/</loc>
+  </url><url>
     <loc>http://localhost:1313/tags/digitization/</loc>
   </url><url>
     <loc>http://localhost:1313/projects/digitize_pungowiyi/</loc>
+  </url><url>
+    <loc>http://localhost:1313/sponsors/grants/</loc>
   </url><url>
     <loc>http://localhost:1313/landing/</loc>
   </url><url>
@@ -221,8 +229,6 @@
     <loc>http://localhost:1313/tags/resource/</loc>
   </url><url>
     <loc>http://localhost:1313/sponsors/</loc>
-  </url><url>
-    <loc>http://localhost:1313/sponsors/sponsors/</loc>
   </url><url>
     <loc>http://localhost:1313/rema/</loc>
   </url><url>

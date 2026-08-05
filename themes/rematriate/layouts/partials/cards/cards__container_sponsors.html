@@ -29,15 +29,26 @@
                 </div>
               {{ end }}
               <div class="card__desc_wrapper">
-                <h3 class="card__main_name">{{ .Params.organization }}</h3>
-                <p class="card__sub_name"><strong>Award</strong>: {{ .Params.award_amount }}</p>
-                <p class="card__sub_name"><strong>Fiscal Year</strong>: {{ .Params.fiscal_year }}</p>
+                <h3 class="card__main_name">{{ .Params.grant_title }}</h3>
+
+                <p class="card__sub_name">
+                  <strong>Granting Organization</strong>: {{ .Params.organization }}
+                </p>
+                <p class="card__sub_name">
+                  <strong>Grant Name</strong>: {{ .Params.grant_name }}
+                </p>
                 <p class="card__sub_name">
                   <strong>Organization Type</strong>: {{ .Params.org_type }}
                 </p>
-                <a class="card__link" href="https://{{ .Params.url | safeURL }}" target="_blank" rel="nopenner noreferrer">
-                  {{ .Params.urltext }}
-                </a>
+                <p class="card__sub_name"><strong>Award</strong>: {{ .Params.award_amount }}</p>
+                <p class="card__sub_name"><strong>Fiscal Year</strong>: {{ .Params.fiscal_year }}</p>
+
+                <p class="card__sub_name">
+                  <strong>Link</strong>: <a class="card__link" href="https://{{ .Params.url | safeURL }}" target="_blank" rel="nopenner noreferrer">
+                    {{ .Params.urltext }}
+                  </a>
+                </p>
+
                 <p>
                   <strong>Granting Organization</strong>: {{ .Params.bio }}
                 </p>
