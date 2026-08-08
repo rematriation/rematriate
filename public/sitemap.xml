@@ -23,6 +23,12 @@
     <loc>http://localhost:1313/tags/workshop/</loc>
     <lastmod>2026-06-01T11:00:00-07:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/news/2026-05-16-tuscarora-nation/</loc>
+    <lastmod>2026-05-16T09:00:00-07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/tuscarora-nation/</loc>
+    <lastmod>2026-05-16T09:00:00-07:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/news/2026-04-15-usidsg-summit/</loc>
     <lastmod>2026-04-15T11:00:00-08:00</lastmod>
   </url><url>
@@ -158,11 +164,13 @@
   </url><url>
     <loc>http://localhost:1313/about/leads/9_erin_yunes/</loc>
   </url><url>
-    <loc>http://localhost:1313/about/supports/1_julia_westblade/</loc>
+    <loc>http://localhost:1313/about/supports/1_westblade_julia/</loc>
   </url><url>
-    <loc>http://localhost:1313/about/supports/2_kimani_jackson/</loc>
+    <loc>http://localhost:1313/about/supports/1_wittman_hollis/</loc>
   </url><url>
-    <loc>http://localhost:1313/about/supports/2_michael_dethomasis/</loc>
+    <loc>http://localhost:1313/about/supports/3_kimani_jackson/</loc>
+  </url><url>
+    <loc>http://localhost:1313/about/supports/3_michael_dethomasis/</loc>
   </url><url>
     <loc>http://localhost:1313/about/supports/amilia_evans/</loc>
   </url><url>
@@ -184,7 +192,7 @@
   </url><url>
     <loc>http://localhost:1313/phases/phase-3/</loc>
   </url><url>
-    <loc>http://localhost:1313/clir.org/recordings-at-risk/funded-projects/%23elementor-tab-title-1841</loc>
+    <loc>http://localhost:1313/www.clir.org/recordings-at-risk/funded-projects/</loc>
   </url><url>
     <loc>http://localhost:1313/imls.gov/grants/awarded/re-259004-ols-25-1</loc>
   </url><url>

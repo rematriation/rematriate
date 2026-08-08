@@ -119,15 +119,15 @@
         <ul class="footer-links">
           
             <li>
-              <a href="/tags/community-engaged-research/">Community-Engaged Research</a> (7)
+              <a href="/tags/community-engaged-research/">Community-Engaged Research</a> (8)
             </li>
           
             <li>
-              <a href="/tags/idsov/">IDSov</a> (5)
+              <a href="/tags/idsov/">IDSov</a> (6)
             </li>
           
             <li>
-              <a href="/tags/data-literacies/">Data Literacies</a> (3)
+              <a href="/tags/data-literacies/">Data Literacies</a> (4)
             </li>
           
             <li>
@@ -143,6 +143,10 @@
             </li>
           
             <li>
+              <a href="/tags/mystery/">MYSTERY</a> (2)
+            </li>
+          
+            <li>
               <a href="/tags/networking/">Networking</a> (2)
             </li>
           
@@ -152,6 +156,10 @@
           
             <li>
               <a href="/tags/resource/">Resource</a> (2)
+            </li>
+          
+            <li>
+              <a href="/tags/workshop/">Workshop</a> (2)
             </li>
           
             <li>
@@ -215,10 +223,6 @@
             </li>
           
             <li>
-              <a href="/tags/mystery/">MYSTERY</a> (1)
-            </li>
-          
-            <li>
               <a href="/tags/nalukataq/">Nalukataq</a> (1)
             </li>
           
@@ -251,6 +255,10 @@
             </li>
           
             <li>
+              <a href="/tags/tuscarora-nation/">Tuscarora Nation</a> (1)
+            </li>
+          
+            <li>
               <a href="/tags/usidsg/">USIDSG</a> (1)
             </li>
           
@@ -260,10 +268,6 @@
           
             <li>
               <a href="/tags/wikibase/">Wikibase</a> (1)
-            </li>
-          
-            <li>
-              <a href="/tags/workshop/">Workshop</a> (1)
             </li>
           
         </ul>

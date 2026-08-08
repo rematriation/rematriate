@@ -9,23 +9,30 @@
     <atom:link href="http://localhost:1313/about/supports/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title></title>
-      <link>http://localhost:1313/about/supports/1_julia_westblade/</link>
+      <link>http://localhost:1313/about/supports/1_westblade_julia/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/about/supports/1_julia_westblade/</guid>
+      <guid>http://localhost:1313/about/supports/1_westblade_julia/</guid>
       <description></description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:1313/about/supports/2_kimani_jackson/</link>
+      <link>http://localhost:1313/about/supports/1_wittman_hollis/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/about/supports/2_kimani_jackson/</guid>
+      <guid>http://localhost:1313/about/supports/1_wittman_hollis/</guid>
       <description></description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:1313/about/supports/2_michael_dethomasis/</link>
+      <link>http://localhost:1313/about/supports/3_kimani_jackson/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/about/supports/2_michael_dethomasis/</guid>
+      <guid>http://localhost:1313/about/supports/3_kimani_jackson/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/about/supports/3_michael_dethomasis/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/about/supports/3_michael_dethomasis/</guid>
       <description></description>
     </item>
     <item>
