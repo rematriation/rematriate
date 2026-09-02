@@ -8,6 +8,13 @@
     <language>en-us</language>
     <atom:link href="http://localhost:1313/tags/resource/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Prototype Murkutu Archive</title>
+      <link>http://localhost:1313/projects/murkutu_prototype/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/murkutu_prototype/</guid>
+      <description>&lt;p&gt;The team has created a prototype collection with a installation. This prototype provides us with a convenient initial data model for our work that can be scaled by Aqqaluk Trust and others to meet future and broader rematriation needs.&lt;/p&gt;&#xA;&lt;p&gt;Check out the prototype at &lt;a href=&#34;https://rematriation.vtdataservices.org/&#34;&gt;https://rematriation.vtdataservices.org/&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;Special thanks to James Tuttle, the Associate Director of Library Data Strategies at Virginia Tech&amp;rsquo;s University Libraries. James helped us create and host this archival content management system, as we plan, coordinate, and develop regional relationships to create a sustainable IT infrastructure.&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>Prototype Wikibase Archive of the Caleb Pungowiyi Collection</title>
       <link>http://localhost:1313/projects/wikibase_prototype/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>

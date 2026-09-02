@@ -8,6 +8,7 @@ tags: [
   'resource',
   'IDSov',
 ]
+weight: 4
 ---
 
 We have created a living document that traces existing definitions of **Rematriation** as a resource for us and others to use and share.

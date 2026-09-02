@@ -6,65 +6,55 @@
   <div class="cards__main_external_wrapper">
 
     <div class="cards__sub_container">
-      
+
       <!-- Start Cards -->
       {{ with .Site.GetPage "/projects" }}
-        {{ range .Pages }}
+      {{ range .Pages.ByWeight }}
 
-          <div class="card__inner_wrapper">
+      <div class="card__inner_wrapper">
 
-            {{ $gallery_type := .Params.gallery_type }}
+        {{ $gallery_type := .Params.gallery_type }}
 
-            {{/*  OPTION 1: POLY-CLIPPED GALLERY  */}}
-            {{ if eq $gallery_type "poly" }}
-              <div class="rema-gallery poly-clipped-gallery">
-                {{ $img_1 := .Params.img_1 }}
-                {{ $img_2 := .Params.img_2 }}
-                {{ $img_3 := .Params.img_3 }}
-                {{ $img_4 := .Params.img_4 }}
+        {{/* OPTION 1: POLY-CLIPPED GALLERY */}}
+        {{ if eq $gallery_type "poly" }}
+        <div class="rema-gallery poly-clipped-gallery">
+          {{ $img_1 := .Params.img_1 }}
+          {{ $img_2 := .Params.img_2 }}
+          {{ $img_3 := .Params.img_3 }}
+          {{ $img_4 := .Params.img_4 }}
 
-                {{- with resources.Get $img_1 }}
-                  <img src="{{ .RelPermalink }}" 
-                       width="300" height="300"
-                       alt="{{ .Params.img_1_alt }}" />
-                {{- end}}
-                {{- with resources.Get $img_2 }}
-                  <img src="{{ .RelPermalink }}" 
-                       width="300" height="300"
-                       alt="{{ .Params.img_2_alt }}" />
-                {{- end}}
-                {{- with resources.Get $img_3 }}
-                  <img src="{{ .RelPermalink }}" 
-                       width="300" height="300"
-                       alt="{{ .Params.img_3_alt }}" />
-                {{- end}}
-                {{- with resources.Get $img_4 }}
-                  <img src="{{ .RelPermalink }}" 
-                       width="300" height="300"
-                       alt="{{ .Params.img_4_alt }}" />
-                {{- end}}
-              </div>
+          {{- with resources.Get $img_1 }}
+          <img src="{{ .RelPermalink }}" width="300" height="300" alt="{{ .Params.img_1_alt }}" />
+          {{- end}}
+          {{- with resources.Get $img_2 }}
+          <img src="{{ .RelPermalink }}" width="300" height="300" alt="{{ .Params.img_2_alt }}" />
+          {{- end}}
+          {{- with resources.Get $img_3 }}
+          <img src="{{ .RelPermalink }}" width="300" height="300" alt="{{ .Params.img_3_alt }}" />
+          {{- end}}
+          {{- with resources.Get $img_4 }}
+          <img src="{{ .RelPermalink }}" width="300" height="300" alt="{{ .Params.img_4_alt }}" />
+          {{- end}}
+        </div>
 
-            {{/*  OPTION 2: SINGLE IMG-OBJ FIT COVER GALLERY  */}}
-            {{ else if eq $gallery_type "single_cover" }}
-              {{ $img_1 := .Params.img_1 }}
-              <div>
-                {{- with resources.Get $img_1 }}
-                  <img src="{{ .RelPermalink }}" 
-                       class="object_fit__cover"
-                       width="300" height="300"
-                       alt="{{ .Params.img_1_alt }}" />
-                {{- end}}
-              </div>
-            {{ end }}
-
-            <div class="card__desc_wrapper">
-              <h3 class="card__main_name">{{ .Params.title }}</h3>
-              {{ .Content }}
-            </div>
-          </div>
-
+        {{/* OPTION 2: SINGLE IMG-OBJ FIT COVER GALLERY */}}
+        {{ else if eq $gallery_type "single_cover" }}
+        {{ $img_1 := .Params.img_1 }}
+        <div>
+          {{- with resources.Get $img_1 }}
+          <img src="{{ .RelPermalink }}" class="object_fit__cover" width="300" height="300"
+            alt="{{ .Params.img_1_alt }}" />
+          {{- end}}
+        </div>
         {{ end }}
+
+        <div class="card__desc_wrapper">
+          <h3 class="card__main_name">{{ .Params.title }}</h3>
+          {{ .Content }}
+        </div>
+      </div>
+
+      {{ end }}
       {{ end }}
       <!-- End Cards -->
 

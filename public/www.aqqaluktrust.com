@@ -133,6 +133,18 @@
             </li>
           
             <li>
+              <a href="/tags/pungowiyi/">Pungowiyi</a> (3)
+            </li>
+          
+            <li>
+              <a href="/tags/resource/">Resource</a> (3)
+            </li>
+          
+            <li>
+              <a href="/tags/archive/">Archive</a> (2)
+            </li>
+          
+            <li>
               <a href="/tags/awards/">Awards</a> (2)
             </li>
           
@@ -153,23 +165,11 @@
             </li>
           
             <li>
-              <a href="/tags/pungowiyi/">Pungowiyi</a> (2)
-            </li>
-          
-            <li>
-              <a href="/tags/resource/">Resource</a> (2)
-            </li>
-          
-            <li>
               <a href="/tags/workshop/">Workshop</a> (2)
             </li>
           
             <li>
               <a href="/tags/aqqaluk-trust/">Aqqaluk Trust</a> (1)
-            </li>
-          
-            <li>
-              <a href="/tags/archive/">Archive</a> (1)
             </li>
           
             <li>
@@ -222,6 +222,10 @@
           
             <li>
               <a href="/tags/metadata/">Metadata</a> (1)
+            </li>
+          
+            <li>
+              <a href="/tags/murkutu/">Murkutu</a> (1)
             </li>
           
             <li>
@@ -319,4 +323,3 @@
 </footer>
 </body>
 </html>
->

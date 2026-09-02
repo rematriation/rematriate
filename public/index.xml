@@ -9,6 +9,34 @@
     <lastBuildDate>Mon, 01 Jun 2026 11:00:00 -0700</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Prototype Murkutu Archive</title>
+      <link>http://localhost:1313/projects/1_murkutu_prototype/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/1_murkutu_prototype/</guid>
+      <description>&lt;p&gt;The team has created a prototype collection with a installation. This prototype provides us with a convenient initial data model for our work that can be scaled by Aqqaluk Trust and others to meet future and broader rematriation needs.&lt;/p&gt;&#xA;&lt;p&gt;Check out the prototype at &lt;a href=&#34;https://rematriation.vtdataservices.org/&#34;&gt;https://rematriation.vtdataservices.org/&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;Special thanks to James Tuttle, the Associate Director of Library Data Strategies at Virginia Tech&amp;rsquo;s University Libraries. James helped us create and host this archival content management system, as we plan, coordinate, and develop regional relationships to create a sustainable IT infrastructure.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Prototype Wikibase Archive of the Caleb Pungowiyi Collection</title>
+      <link>http://localhost:1313/projects/wikibase_prototype/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/wikibase_prototype/</guid>
+      <description>&lt;p&gt;The team has created a prototype collection with a installation. This prototype provides us with a convenient initial data model for our work that can be scaled by Aqqaluk Trust and others to meet future and broader rematriation needs.&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://rematriation.wikibase.cloud/wiki/Main_Page&#34;&gt;Check out the prototype!&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;Special thanks to James Tuttle, the Associate Director of Library Data Strategies at Virginia Tech&amp;rsquo;s University Libraries. James helped us create and host this wikibase instance for testing.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Digitizing the Caleb Pungowiyi Collection</title>
+      <link>http://localhost:1313/projects/digitize_pungowiyi/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/digitize_pungowiyi/</guid>
+      <description>&lt;p&gt;Between June 1, 2022 and June 30, 2023, the team coordinated the digitization of the Caleb Pungowiyi collection. With the generous aid of the Virginia Tech Digitization Lab, the team digitized a wide range of physical materials, from photographs to personal journals. The digitization process of Caleb Pungowiyi’s materials resulted in about 200 hours of work, which included cataloging and digitizing the following materials:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;554 slides&lt;/li&gt;&#xA;&lt;li&gt;1,636 photos&lt;/li&gt;&#xA;&lt;li&gt;94 journals and documents.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;In total, the lab processed 2,284 items and produced 6,561 images. With the help of VT undergraduate research assistants, the handwritten resources were meticulously transcribed into digital format and enriched with metadata.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Tracing Definitions of Rematriation</title>
+      <link>http://localhost:1313/projects/tracing_rema/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/tracing_rema/</guid>
+      <description>&lt;p&gt;We have created a living document that traces existing definitions of &lt;strong&gt;Rematriation&lt;/strong&gt; as a resource for us and others to use and share.&lt;/p&gt;&#xA;&lt;p&gt;Learn more on the &lt;a href=&#34;http://localhost:1313/rema/&#34;&gt;Tracing Rematriation&lt;/a&gt; page.&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>REMA successfully conducts digital archiving workshop with NANA communities</title>
       <link>http://localhost:1313/news/2026-06-01-imls-workshop/</link>
       <pubDate>Mon, 01 Jun 2026 11:00:00 -0700</pubDate>
@@ -308,27 +336,6 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/wilburforce.org</guid>
       <description></description>
-    </item>
-    <item>
-      <title>Digitizing the Caleb Pungowiyi Collection</title>
-      <link>http://localhost:1313/projects/digitize_pungowiyi/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/projects/digitize_pungowiyi/</guid>
-      <description>&lt;p&gt;Between June 1, 2022 and June 30, 2023, the team coordinated the digitization of the Caleb Pungowiyi collection. With the generous aid of the Virginia Tech Digitization Lab, the team digitized a wide range of physical materials, from photographs to personal journals. The digitization process of Caleb Pungowiyi’s materials resulted in about 200 hours of work, which included cataloging and digitizing the following materials:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;554 slides&lt;/li&gt;&#xA;&lt;li&gt;1,636 photos&lt;/li&gt;&#xA;&lt;li&gt;94 journals and documents.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;In total, the lab processed 2,284 items and produced 6,561 images. With the help of VT undergraduate research assistants, the handwritten resources were meticulously transcribed into digital format and enriched with metadata.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Prototype Wikibase Archive of the Caleb Pungowiyi Collection</title>
-      <link>http://localhost:1313/projects/wikibase_prototype/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/projects/wikibase_prototype/</guid>
-      <description>&lt;p&gt;The team has created a prototype collection with a installation. This prototype provides us with a convenient initial data model for our work that can be scaled by Aqqaluk Trust and others to meet future and broader rematriation needs.&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://rematriation.wikibase.cloud/wiki/Main_Page&#34;&gt;Check out the prototype!&lt;/a&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Tracing Definitions of Rematriation</title>
-      <link>http://localhost:1313/projects/tracing_rema/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/projects/tracing_rema/</guid>
-      <description>&lt;p&gt;We have created a living document that traces existing definitions of &lt;strong&gt;Rematriation&lt;/strong&gt; as a resource for us and others to use and share.&lt;/p&gt;&#xA;&lt;p&gt;Learn more on the &lt;a href=&#34;http://localhost:1313/rema/&#34;&gt;Tracing Rematriation&lt;/a&gt; page.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
